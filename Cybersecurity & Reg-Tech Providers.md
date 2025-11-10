@@ -1,3 +1,265 @@
+# Cybersecurity & Regulatory Technology Providers — Full Clause Library with Direct Legal Linkages  
+*(Vendor-Side — Technology & SaaS Contracts)*  
+
+---
+
+## 1. Definitions & Regulatory Scope  
+
+**Clause:**  
+> “For the purposes of this Agreement, ‘Cybersecurity Services’ include *vulnerability assessment, penetration testing, SOC monitoring, incident response, and compliance analytics*. ‘Regulatory Technology Services’ include *automated regulatory reporting, risk scoring, and policy compliance monitoring*.”
+
+### Clause–to–Law Mapping:
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “vulnerability assessment, penetration testing” | **CERT-In Guidelines 2022 (u/s 70B IT Act)** | India | Defines security services under regulated cyber activities. |
+| “compliance analytics / regulatory reporting” | **DPDP Act §10; RBI Cybersecurity Framework 2016; SEBI Circular 2022** | India | Reg-Tech recognized as compliance function support. |
+| “risk scoring / monitoring” | **NIST SP 800-37; GDPR Art. 32(1)** | US / EU | Defines risk-based processing obligations. |
+
+---
+
+## 2. License Grant & SaaS Usage  
+
+**Clause:**  
+> “The Vendor grants the Client a *non-exclusive, non-transferable, limited license* to use the Platform for *internal business and regulatory compliance purposes*.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “non-exclusive, non-transferable license” | **Copyright Act §30(1); UCC §2-312** | India / US | IP license must specify exclusivity and scope. |
+| “regulatory compliance purposes” | **DPDP Act §10(3); GDPR Art. 6(1)(c)** | India / EU | Legitimate basis for processing regulatory data. |
+
+---
+
+## 3. Data Protection & Processing  
+
+**Clause:**  
+> “The Vendor shall process Personal Data in accordance with the *Digital Personal Data Protection Act, 2023*, *GDPR*, and *applicable sectoral regulations*, solely for fulfilling obligations under this Agreement.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “DPDP Act, 2023” | **DPDP §§7–10** | India | Lawful basis and purpose limitation. |
+| “GDPR compliance” | **GDPR Art. 5–6, 28(3)** | EU | Requires data processing agreements. |
+| “sectoral regulations” | **RBI / SEBI / IRDAI IT & Cybersecurity Guidelines** | India | Sector-specific compliance for Reg-Tech entities. |
+
+---
+
+## 4. Security Standards & Controls  
+
+**Clause:**  
+> “The Vendor shall maintain *security measures consistent with ISO 27001, NIST SP 800-171, and CERT-In Directions*, including *encryption, access control, vulnerability patching, and continuous monitoring*.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “CERT-In Directions (2022)” | **IT Act §70B** | India | Mandatory incident reporting and control standards. |
+| “ISO 27001 / NIST SP 800-171” | **FISMA 44 USC §3554; NIST Standards** | US | Federal cybersecurity baselines. |
+| “continuous monitoring” | **GDPR Art. 32(1)(d)** | EU | Requires ongoing review of security controls. |
+
+---
+
+## 5. Incident Notification & Breach Reporting  
+
+**Clause:**  
+> “Vendor shall *notify the Client within 6 hours* of discovering any data breach or cybersecurity incident, and provide a *full incident report within 48 hours*.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “notify within 6 hours” | **CERT-In 2022 Directive (Notification window)** | India | Mandatory breach notification timeline. |
+| “incident report within 48 hours” | **GDPR Art. 33; NIS2 Directive Art. 23** | EU | Reporting within 72 hours of awareness. |
+| “breach of personal data” | **DPDP §8(6)** | India | Requires prompt notice to Data Protection Board. |
+
+---
+
+## 6. Client Data Ownership & Return  
+
+**Clause:**  
+> “All data uploaded by the Client remains *Client’s exclusive property*. Upon termination, Vendor shall *return or securely delete all Client Data within 30 days*.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “Client retains ownership” | **DPDP §10(3); GDPR Art. 28(3)(g)** | India / EU | Data controller retains ownership of processed data. |
+| “secure deletion / return” | **NIST SP 800-88; ISO 27040** | US / Global | Specifies data sanitization requirements. |
+
+---
+
+## 7. Data Localization (Critical / Regulated Entities)  
+
+**Clause:**  
+> “If Client is a *regulated financial, government, or critical information infrastructure entity*, Vendor shall ensure *data storage and backup only within India* and *not transfer data outside India without prior consent*.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “critical information infrastructure” | **IT Act §70(1)** | India | Defines entities requiring data localization. |
+| “cross-border transfer restriction” | **DPDP §16; GDPR Art. 46** | India / EU | Transfers require adequacy or explicit approval. |
+
+---
+
+## 8. Subprocessors & Third-Party Providers  
+
+**Clause:**  
+> “Vendor shall not engage any subprocessor without *Client’s prior written consent* and shall ensure *flow-down of data protection obligations*.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “prior consent” | **GDPR Art. 28(2)** | EU | Controller approval mandatory for subprocessors. |
+| “flow-down obligations” | **DPDP §10(5)** | India | Ensures equivalent protection under subcontract. |
+
+---
+
+## 9. Confidentiality  
+
+**Clause:**  
+> “Vendor shall keep all Client information, system configurations, and data in *strict confidence* and shall *not disclose to any third party* without written consent.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “strict confidence” | **IT Act §72; Indian Evidence Act §126** | India | Legal duty to protect client communications. |
+| “confidentiality obligation” | **UCC §1-201; GDPR Art. 5(1)(f)** | US / EU | Confidentiality of processing enforced by law. |
+
+---
+
+## 10. Audit & Compliance Verification  
+
+**Clause:**  
+> “Client or its auditors may *conduct audits or request compliance reports* (SOC 2, ISO 27001, GDPR readiness) upon reasonable notice.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “audit access” | **DPDP §10(6)**; **GFR Rule 181 (for public contracts)** | India | Allows compliance inspection. |
+| “SOC 2 / ISO reporting” | **FAR 52.215-2; NIST 800-53** | US | Common audit frameworks. |
+| “GDPR readiness” | **GDPR Art. 28(3)(h)** | EU | Requires processor audit cooperation. |
+
+---
+
+## 11. Liability Cap & Cyber Risk  
+
+**Clause:**  
+> “Vendor’s total aggregate liability for all claims shall not exceed *100% of fees paid*, except for *gross negligence, breach of confidentiality, or data protection obligations*.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “reasonable limitation of liability” | **Contract Act §73–74** | India | Reasonable cap permitted. |
+| “exclusion for data breach” | **GDPR Art. 82; DPDP §43A (IT Rules)** | EU / India | Liability arises for inadequate security. |
+
+---
+
+## 12. Indemnity (Data Breach / Regulatory Fines)  
+
+**Clause:**  
+> “Vendor shall indemnify and hold the Client harmless from *fines, penalties, and third-party claims* arising out of *Vendor’s data breach, negligence, or non-compliance*.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “regulatory penalties” | **DPDP §33; GDPR Art. 83** | India / EU | Data controllers/processors liable for fines. |
+| “third-party claims” | **UCC §2-312(3)** | US | Implied warranty indemnity for IP/data breach. |
+
+---
+
+## 13. Business Continuity & Disaster Recovery  
+
+**Clause:**  
+> “Vendor shall maintain and test *Business Continuity and Disaster Recovery (BCP/DRP) Plans* annually and provide evidence of tests upon request.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “BCP/DRP requirement” | **CERT-In Guidelines 2022; ISO 22301** | India / Global | Mandated resilience plan for critical providers. |
+| “annual testing” | **NIST 800-34 Rev.1** | US | Requires periodic testing and maintenance. |
+
+---
+
+## 14. Open-Source & Security Tools  
+
+**Clause:**  
+> “Vendor shall ensure that *open-source security libraries or scanning tools* used in Services are compliant with *applicable licenses and export control laws*.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “OSS compliance” | **GPL v3; IT Act §43A** | India / Global | Legal reuse under OSS licensing. |
+| “export control” | **DGFT ITC(HS); EAR Part 772** | India / US | Restricts export of encryption tech. |
+
+---
+
+## 15. Reg-Tech Compliance Feed Accuracy  
+
+**Clause:**  
+> “Vendor warrants that *regulatory updates and compliance alerts* are derived from *authentic sources* and shall maintain a *reasonable accuracy standard*.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “authentic regulatory sources” | **RBI / SEBI Circulars; FCA Handbook** | India / UK | Ensures verified source data. |
+| “accuracy duty” | **DPDP §8(5); GDPR Art. 5(1)(d)** | India / EU | Requires data accuracy and reliability. |
+
+---
+
+## 16. Training & Awareness  
+
+**Clause:**  
+> “Vendor shall ensure *regular cybersecurity and compliance training* for all personnel involved in service delivery.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “training obligation” | **CERT-In Guidelines 2022; NIST 800-50** | India / US | Mandatory user awareness for cybersecurity posture. |
+| “compliance staff training” | **GDPR Art. 39(1)(b)** | EU | DPO must ensure staff training. |
+
+---
+
+## 17. Export Control & Encryption Restrictions  
+
+**Clause:**  
+> “Vendor shall comply with *DGFT encryption export regulations* and *U.S. EAR / ITAR restrictions* where applicable.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “DGFT encryption policy” | **DGFT Notification ITC(HS)** | India | Regulates dual-use encryption export. |
+| “EAR / ITAR” | **15 CFR Part 772; 22 CFR Part 121** | US | Controls cryptographic export/import. |
+
+---
+
+## 18. Anti-Bribery & Ethics  
+
+**Clause:**  
+> “Vendor shall not engage in *any corrupt, fraudulent, or coercive practices*, and shall comply with the *Prevention of Corruption Act, 1988* and *FCPA*.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “corrupt / coercive practices” | **POCA §§7–9; CVC Manual 2022** | India | Standard compliance clause. |
+| “FCPA compliance” | **15 USC §§78dd-1 et seq.** | US | Applies to transnational Reg-Tech providers. |
+
+---
+
+## 19. Term & Termination  
+
+**Clause:**  
+> “Either Party may terminate for *material breach* or *regulatory non-compliance* with [30] days’ notice.”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “material breach” | **Contract Act §39** | India | Breach gives right to terminate. |
+| “regulatory non-compliance” | **DPDP §33; GDPR Art. 83** | India / EU | Termination right for compliance failure. |
+
+---
+
+## 20. Governing Law & Dispute Resolution  
+
+**Clause:**  
+> “This Agreement shall be governed by *the laws of India* and disputes shall be resolved through *arbitration under the Arbitration & Conciliation Act, 1996*, seated in [Bangalore / Mumbai].”
+
+| Phrase | Legal Basis | Jurisdiction | Rationale |
+|--------|--------------|--------------|------------|
+| “laws of India” | **§28 Contract Act** | India | Permits party autonomy. |
+| “arbitration” | **Arbitration & Conciliation Act, 1996** | India | Standard dispute mechanism. |
+| “seat of arbitration” | **CPC §20** | India | Defines jurisdictional seat. |
+
+---
+
+## 📘 Annexures  
+
+- **Annexure A:** Technical & Security Specifications  
+- **Annexure B:** Data Processing & Encryption Standards  
+- **Annexure C:** Audit & Incident Reporting Schedule  
+- **Annexure D:** BCP / DRP Plan Summary  
+- **Annexure E:** Regulatory Feed Validation Log  
+
+---
+
 # Cybersecurity & Reg-Tech Providers — Clause Compliance Audit Checklist  
 *(Cross-Referenced with Cybersecurity-RegTech Linked Clause Library)*  
 
