@@ -180,7 +180,48 @@
 - For **post-closing deliverables**, include explicit timelines (30/90 days), recordation obligations and escrow mechanics.
 
 ---
-# IP, M&A & JV Technology Clients — Jurisdictional Enforcement Matrix **Legend:** ✅ = Fully Enforceable | ⚠️ = Partially Restricted / Contextual | ❌ = Void / Prohibited --- | # | Clause | India | US | EU | Notes & Legal Authority | |---|---------|--------|----|----|--------------------------| | **1** | **Intellectual Property Ownership & Assignment** | ✅ | ✅ | ✅ | Enforceable if written & signed. India: §19(1) Copyright Act, §68 Patents Act. US: 17 USC §201(d), 35 USC §261. EU: Reg. (EU) 2017/1001 Art. 17. | | **2** | **Technology Transfer & Licensing (Know-How)** | ✅ | ✅ | ⚠️ | EU imposes competition limitations (TTBER Art. 2–4). India/US unrestricted if lawful. | | **3** | **Representations & Warranties (IP, Tech)** | ✅ | ✅ | ✅ | Implied warranty enforceable. India: Sale of Goods Act §18; US: UCC §2-312; EU: Directive 2019/771 (Digital Content). | | **4** | **Due Diligence & Disclosure Obligations** | ✅ | ✅ | ✅ | Full disclosure mandatory under contract & misrepresentation laws. India: Contract Act §19; EU: Directive 2014/95. | | **5** | **Confidentiality & Trade Secrets** | ✅ | ✅ | ✅ | Fully enforceable. India: IT Act §72, Contract Act §27; US: DTSA 2016; EU: Directive 2016/943. | | **6** | **Non-Compete** | ⚠️ | ✅ | ⚠️ | India: Generally void post-employment (§27 Contract Act) but valid in sale-of-business. US: FTC rule (2024) limits use; EU: valid if proportionate (Art. 101 TFEU). | | **7** | **Non-Solicit** | ✅ | ✅ | ✅ | Enforceable if reasonable and not indefinite. Recognized under common law globally. | | **8** | **Indemnification (IP Infringement)** | ✅ | ✅ | ✅ | Enforceable; liability allocation valid under §124 Patents Act, UCC §2-312(3), Directive 2004/48/EC. | | **9** | **Open Source Software Compliance** | ✅ | ✅ | ✅ | GPL and OSS licenses binding worldwide under copyright statutes. Must disclose and attribute. | | **10** | **Post-Closing IP Transfer & Recordation** | ✅ | ✅ | ✅ | Required for enforceability. India: TM Rules 75; US: 37 CFR §3.81; EU: EUIPO EX-20-9. | | **11** | **Data Migration / Database Rights** | ⚠️ | ✅ | ✅ | India lacks sui generis DB right; EU recognizes under Directive 96/9/EC; enforceable via confidentiality. | | **12** | **Dispute Resolution (Arbitration & Governing Law)** | ✅ | ✅ | ✅ | Fully enforceable globally if seat and law chosen; India: Arbitration Act, 1996; US: FAA; EU: Brussels I Recast. | | **13** | **Royalty, Tax, & Withholding Obligations** | ✅ | ✅ | ⚠️ | Cross-border royalty payments subject to DTAA & OECD BEPS. Must include gross-up clause. | | **14** | **Employee IP Assignment & Moral Rights Waiver** | ⚠️ | ✅ | ⚠️ | India & EU restrict waiver of moral rights (Copyright §57, EU Directive 2001/29/EC); US allows waiver (work-for-hire). | | **15** | **Export Control Compliance** | ✅ | ✅ | ⚠️ | India: DGFT ITC(HS) + MEA dual-use controls; US: EAR §772. EU: 2021/821 (Dual-Use Reg). Partial restrictions apply. | | **16** | **Source Code Escrow & Release Triggers** | ✅ | ✅ | ✅ | Recognized contractual mechanism worldwide; ensure release triggers clear under contract law. | | **17** | **Change of Control (Tech JV)** | ✅ | ✅ | ✅ | Governed by Contract Act & corporate law; enforceable if approval matrix exists. EU may require merger clearance (EU Merger Regulation). | | **18** | **Force Majeure (Tech Disruption)** | ✅ | ✅ | ✅ | Enforceable if explicit. India: §56 Contract Act; US: common law doctrine of impossibility; EU: Civil Code equivalents. | | **19** | **Termination & IP Reversion** | ✅ | ✅ | ✅ | Valid if termination linked to breach or non-payment. Must define IP ownership post-termination. | | **20** | **Governing Law Hierarchy (Conflict Clause)** | ✅ | ✅ | ✅ | Fully enforceable if express. Required for cross-border tech deals. | --- ## 🧭 Interpretation Notes | Category | India | US | EU | |-----------|--------|----|----| | **Non-Compete (6)** | Void if post-employment, valid for sale of goodwill | Valid unless FTC ban applies | Valid if ≤2 years and proportionate to legitimate interest | | **Employee IP (14)** | Default ownership = employee; assignment must be written | Default = employer (work-for-hire) | Default = employee unless assigned; moral rights non-waivable | | **Data / DB Rights (11)** | Protected under IT Act §43A & contract | Protected under trade secrets law | Sui generis protection (Directive 96/9/EC) | | **Technology Transfer (2)** | Freely permitted | Regulated by EAR for export | Subject to TTBER (competition review) | | **Arbitration (12)** | Full recognition under New York Convention | FAA recognizes foreign awards | Enforceable under Brussels I & New York Convention |
+# IP, M&A & JV Technology Clients — Jurisdictional Enforcement Matrix
+
+**Legend:** ✅ = Fully Enforceable | ⚠️ = Partially Restricted / Contextual | ❌ = Void / Prohibited
+
+---
+
+| # | Clause | India | US | EU | Notes & Legal Authority |
+|---|--------|-------|----|----|------------------------|
+| **1** | **Intellectual Property Ownership & Assignment** | ✅ | ✅ | ✅ | Enforceable if written & signed. India: §19(1) Copyright Act, §68 Patents Act. US: 17 USC §201(d), 35 USC §261. EU: Reg. (EU) 2017/1001 Art. 17. |
+| **2** | **Technology Transfer & Licensing (Know-How)** | ✅ | ✅ | ⚠️ | EU imposes competition limitations (TTBER Art. 2–4). India/US unrestricted if lawful. |
+| **3** | **Representations & Warranties (IP, Tech)** | ✅ | ✅ | ✅ | Implied warranty enforceable. India: Sale of Goods Act §18; US: UCC §2-312; EU: Directive 2019/771 (Digital Content). |
+| **4** | **Due Diligence & Disclosure Obligations** | ✅ | ✅ | ✅ | Full disclosure mandatory under contract & misrepresentation laws. India: Contract Act §19; EU: Directive 2014/95. |
+| **5** | **Confidentiality & Trade Secrets** | ✅ | ✅ | ✅ | Fully enforceable. India: IT Act §72, Contract Act §27; US: DTSA 2016; EU: Directive 2016/943. |
+| **6** | **Non-Compete** | ⚠️ | ✅ | ⚠️ | India: Generally void post-employment (§27 Contract Act) but valid in sale-of-business. US: FTC rule (2024) limits use; EU: valid if proportionate (Art. 101 TFEU). |
+| **7** | **Non-Solicit** | ✅ | ✅ | ✅ | Enforceable if reasonable and not indefinite. Recognized under common law globally. |
+| **8** | **Indemnification (IP Infringement)** | ✅ | ✅ | ✅ | Enforceable; liability allocation valid under §124 Patents Act, UCC §2-312(3), Directive 2004/48/EC. |
+| **9** | **Open Source Software Compliance** | ✅ | ✅ | ✅ | GPL and OSS licenses binding worldwide under copyright statutes. Must disclose and attribute. |
+| **10** | **Post-Closing IP Transfer & Recordation** | ✅ | ✅ | ✅ | Required for enforceability. India: TM Rules 75; US: 37 CFR §3.81; EU: EUIPO EX-20-9. |
+| **11** | **Data Migration / Database Rights** | ⚠️ | ✅ | ✅ | India lacks sui generis DB right; EU recognizes under Directive 96/9/EC; enforceable via confidentiality. |
+| **12** | **Dispute Resolution (Arbitration & Governing Law)** | ✅ | ✅ | ✅ | Fully enforceable globally if seat and law chosen; India: Arbitration Act, 1996; US: FAA; EU: Brussels I Recast. |
+| **13** | **Royalty, Tax, & Withholding Obligations** | ✅ | ✅ | ⚠️ | Cross-border royalty payments subject to DTAA & OECD BEPS. Must include gross-up clause. |
+| **14** | **Employee IP Assignment & Moral Rights Waiver** | ⚠️ | ✅ | ⚠️ | India & EU restrict waiver of moral rights (Copyright §57, EU Directive 2001/29/EC); US allows waiver (work-for-hire). |
+| **15** | **Export Control Compliance** | ✅ | ✅ | ⚠️ | India: DGFT ITC(HS) + MEA dual-use controls; US: EAR §772. EU: 2021/821 (Dual-Use Reg). Partial restrictions apply. |
+| **16** | **Source Code Escrow & Release Triggers** | ✅ | ✅ | ✅ | Recognized contractual mechanism worldwide; ensure release triggers clear under contract law. |
+| **17** | **Change of Control (Tech JV)** | ✅ | ✅ | ✅ | Governed by Contract Act & corporate law; enforceable if approval matrix exists. EU may require merger clearance (EU Merger Regulation). |
+| **18** | **Force Majeure (Tech Disruption)** | ✅ | ✅ | ✅ | Enforceable if explicit. India: §56 Contract Act; US: common law doctrine of impossibility; EU: Civil Code equivalents. |
+| **19** | **Termination & IP Reversion** | ✅ | ✅ | ✅ | Valid if termination linked to breach or non-payment. Must define IP ownership post-termination. |
+| **20** | **Governing Law Hierarchy (Conflict Clause)** | ✅ | ✅ | ✅ | Fully enforceable if express. Required for cross-border tech deals. |
+
+---
+
+## 🧭 Interpretation Notes
+
+| Category | India | US | EU |
+|----------|-------|----|----|
+| **Non-Compete (6)** | Void if post-employment, valid for sale of goodwill | Valid unless FTC ban applies | Valid if ≤2 years and proportionate to legitimate interest |
+| **Employee IP (14)** | Default ownership = employee; assignment must be written | Default = employer (work-for-hire) | Default = employee unless assigned; moral rights non-waivable |
+| **Data / DB Rights (11)** | Protected under IT Act §43A & contract | Protected under trade secrets law | Sui generis protection (Directive 96/9/EC) |
+| **Technology Transfer (2)** | Freely permitted | Regulated by EAR for export | Subject to TTBER (competition review) |
+| **Arbitration (12)** | Full recognition under New York Convention | FAA recognizes foreign awards | Enforceable under Brussels I & New York Convention |
+
+---
 
 ## ✅ Quick Compliance Color Key  
 | Symbol | Meaning |
