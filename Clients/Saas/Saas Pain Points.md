@@ -1,260 +1,222 @@
-# SaaS Contract Pain Points, Takeaways & Recommendations  
----
+# SaaS Contracting Advisory Note — Legal, Commercial & Technological Risks (India–EU–US)
 
-## Executive Summary  
-
-This note consolidates legal, operational, and regulatory risks in SaaS contracts identified across recent international research and regulatory developments.  
-It provides a clause-level strategy for addressing these risks in drafting and negotiation.  
-Each section includes the **Issue**, **Analysis**, and **Solution**, followed by **numbered citations** referencing public regulatory, academic, or technical sources.
-
----
-
-## Legal & Market Trend Insight  
-
-Recent regulatory and enforcement trends show that SaaS contracting has evolved beyond software licensing into **outsourcing-style data stewardship**.  
-The 2025 refusal by the [European Data Protection Supervisor (EDPS)](https://edps.europa.eu/) to authorise the [European Investment Bank (EIB)](https://www.moneycontrol.com/technology/eu-data-watchdog-blocks-eib-data-transfer-to-india-citing-privacy-concerns-article-13014369.html) data transfer to India illustrates the growing scrutiny of cross-border processing adequacy [1].  
-Accordingly, SaaS clients and vendors must embed **Transfer Impact Assessments (TIAs)**, local-data fallback rights, and granular subprocessor transparency to maintain contractual defensibility.
+**Prepared by:** Silvia Tomy Simon
+**Audience:** Partners, Senior Associates & Transaction Counsel  
+**Scope:** Global SaaS contracting (B2B + B2C) — India, EU, and US  
+**Focus:** Risk allocation, regulatory compliance, operational resilience, and smart-contract integration  
+**POV:** Standard-market (vendor-leaning but commercially fair)  
 
 ---
 
-## 1. Multicloud & Subprocessor Opacity  
+## Executive Summary
 
-**Issue:** Vendors frequently rely on multiple cloud partners and subprocessors without transparent disclosure.  
-This obscures where data is processed and undermines compliance with audit and accountability frameworks.
+The SaaS model has matured into the default architecture for global software delivery.  
+However, the legal frameworks governing SaaS remain fragmented, often retrofitted from legacy software and outsourcing regimes.
 
-**Analysis:** Empirical studies of cloud supply-chain visibility reveal that undisclosed layers create “blind zones” in risk management, increasing exposure under GDPR, DPDP, and CERT-IN obligations [2][3].
+Recent academic, regulatory, and industry research — including the *Oxford SaaS Contracting Papers*, *OUULJ Reasonable Coder Study*, *BLG Practical SaaS Guide*, *Rutan & Tucker SaaS Contracts Presentation*, and the *Sectra Linköping Thesis on SaaS Profitability* — converge on three key insights:
 
-**Solution:**  
-- Mandate a **live Subprocessor Register**.  
-- Require flow-down of data-protection obligations to all subprocessors.  
-- Retain vendor liability for subprocessor breaches.  
-- Allow client objection to “high-risk” subprocessors.
+1. **Operational realities (multi-tenancy, continuous deployment, and CSP reliance)** restrict vendors’ ability to offer traditional contractual warranties or change-control mechanisms.  
+2. **Regulatory developments (EU DCD, GDPR, US FTC SaaS enforcement, India DPDP Act 2023)** are pushing for greater transparency, data portability, and balanced variation rights — especially in B2C or hybrid models.  
+3. **Smart-contract integration and automation** introduce interpretive risk — the law must reconcile human intent with executable code.
 
----
-
-## 2. SLA Measurement & Availability Manipulation  
-
-**Issue:** Aggregate uptime metrics allow systemic under-reporting of tenant-level outages.
-
-**Analysis:** Technical reliability assessments show that per-tenant service probes better represent real performance; aggregate reporting distorts accountability [4].
-
-**Solution:**  
-Adopt a **Tenant-Specific SLA**:
-- Uptime measured per tenant using independent probes.  
-- Capped maintenance windows and advance notice.  
-- Define thresholds for credits and termination triggers.
+This note synthesizes the above into actionable implications for **vendors/service providers**, providing a drafting and negotiation framework aligned with global best practices and practical transaction experience.
 
 ---
 
-## 3. Exit & Portability Gaps  
+## I. Research-Based Analysis — Core Themes Across the Literature
 
-**Issue:** Many SaaS contracts do not ensure usable data export or verified deletion after termination, leading to lock-in and privacy non-compliance.
+### 1. Contractual Architecture: From License to Access
+- SaaS contracts are **not software licenses** but **access and service contracts**.  
+- Core obligations revolve around *availability, uptime, data security, and performance consistency*, not deliverable ownership.  
+- The **subscription model** requires ongoing conformity with the agreed performance standards (especially under EU law — Digital Content Directive, DCD).  
+- Traditional perpetual-license constructs (e.g., "work-for-hire," "source code escrow") are operationally incompatible with SaaS.
 
-**Analysis:** Continuity reviews reveal most vendors lack migration testing or certified deletion, breaching controller duties under GDPR Art. 28 (3)(g) and DPDP §10(3) [5][6].
-
-**Solution:**  
-Include an **Exit & Transition Annex** requiring open-format export (JSON/CSV/SQL), migration testing, deletion certificates, and defined vendor support.
-
----
-
-## 4. Ineffective Source-Code Escrow  
-
-**Issue:** Traditional escrow deposits exclude infrastructure components needed to rebuild the environment.
-
-**Analysis:** SaaS escrow audits show high failure rates because only source code is deposited—omitting containers, dependencies, and IaC templates [7].
-
-**Solution:**  
-Implement a **SaaS-Aware Escrow** including:
-- Source code, build scripts, infrastructure templates, and runbooks.  
-- Annual third-party verification of rebuild.  
-- Release on insolvency or 60-day uncured outage.
+**Key risk:** Mischaracterization of the service model leads to defective risk allocation — particularly in IP, service levels, and data portability.
 
 ---
 
-## 5. Audit vs IP Protection  
+### 2. Data Security and Transparency — The Regulatory Shift
+- EU research highlights that **data security is now a performance attribute**, not an ancillary obligation.  
+- Under the **DCD (EU)**, a digital service must “remain in conformity” throughout the subscription term — including maintaining security updates.  
+- **FTC (US)** enforcement trends show that deceptive representations around “secure cloud storage” or “GDPR-compliant SaaS” can trigger unfair-trade liability.  
+- In **India**, the DPDP Act 2023 classifies cloud vendors as *data processors* with direct accountability for data breaches and cross-border transfer compliance.
 
-**Issue:** Broad audit rights threaten vendor IP, while narrow rights undermine client oversight.
-
-**Analysis:** Contract scholarship recommends tiered audit models combining attestation, documentation review, and scoped technical audit to balance transparency and confidentiality [8].
-
-**Solution:**  
-Define a **Three-Tier Audit Framework**:  
-1. Annual SOC 2 / ISO 27001 attestations.  
-2. Documentary review on request.  
-3. Limited technical audit under NDA with IP redactions.
+**Takeaway:** Vendors must balance disclosure (assurance of security practices) with protection (avoid exposing architectural details).
 
 ---
 
-## 6. Telemetry & Derived-Data Misuse  
+### 3. Subprocessor Dependency and Multi-Cloud Complexity
+- Vendors increasingly rely on multiple cloud infrastructure providers (AWS, Azure, GCP) — introducing **non-homogeneous security models** and **supply chain opacity**.  
+- Academic findings (Oxford, 2019) emphasize that many SaaS providers have **limited visibility into their subprocessor security controls**.  
+- The legal risk is twofold: (a) insufficient contractual flow-downs, and (b) failure to notify or seek consent when subprocessors change.  
 
-**Issue:** Vendors often mine usage data to develop analytics or AI tools without explicit consent.
-
-**Analysis:** Data-rights literature notes blurred ownership and inadequate anonymisation of derived datasets, conflicting with controller expectations under privacy law [9][10].
-
-**Solution:**  
-Add a **Data-Taxonomy Schedule** distinguishing:
-- Customer Data, Personal Data, Telemetry, Derived Data.  
-- Restrict vendor use of derived data to anonymised form only.  
-- Provide opt-out or compensation for analytics use.
+**Takeaway:** Vendor contracts should integrate dynamic subprocessor lists, automated change notifications, and liability retention mechanisms.
 
 ---
 
-## 7. Cross-Border Data-Transfer Risk  
+### 4. Smart Contracts and Automated Code Obligations
+- The *OUULJ 12th Edition – “Reasonable Coder”* paper warns against equating code execution with legal intent.  
+- Courts may struggle to interpret purely automated performance — risking outcomes inconsistent with contractual understanding.  
+- The proposed **contextual approach** (admitting design documents and intent evidence) is essential to preserve enforceability.  
 
-**Issue:** Standard boilerplate transfer clauses ignore adequacy findings and real transfer risks.
-
-**Analysis:** Following the EDPS / EIB case [1], regulators may block transfers lacking equivalent protection.  Clauses without TIAs or safeguards are no longer defensible under GDPR Art. 46 or DPDP §16.
-
-**Solution:**  
-Attach a **Transfer-Impact Assessment Annex**:  
-- Vendor must complete a TIA within 15 days.  
-- Apply supplementary measures within 45 days if risks remain.  
-- Client may suspend transfers or require local hosting.
+**Takeaway:** Hybrid SaaS + Smart Contract frameworks must expressly integrate a *“Design Script”* and clarify which governs in the event of divergence.
 
 ---
 
-## 8. Incident Response Misalignment  
+### 5. Financial Exposure and Profitability Sensitivity
+- The *Linköping Thesis* (Sectra, 2019) identifies significant revenue risk from cost volatility, exchange-rate mismatches, and inflexible pricing commitments.  
+- Contracts with fixed multi-year pricing can erode margins due to fluctuating cloud hosting and compute costs.  
 
-**Issue:** Notification timelines in SaaS contracts lag behind statutory obligations (e.g., CERT-IN 2022 6-hour rule, NIS2 24-hour rule).
-
-**Analysis:** Comparative reviews show delayed vendor escalation and conflicting confidentiality clauses [11][12].
-
-**Solution:**  
-Include an **Incident-Response Playbook**:  
-- Critical incidents → notify within 6 hours.  
-- Non-critical → 24 hours.  
-- Root-cause and remediation report within 30 days.  
-- Maintain logs for defined retention and coordinate regulatory filings.
+**Takeaway:** SaaS vendors should adopt price-indexation, CPI-adjustments, or cost-pass-through mechanisms linked to underlying infrastructure inflation.
 
 ---
 
-## 9. Smart-Automation Disputes  
-
-**Issue:** Automated controls (billing, throttling, suspensions) may operate contrary to contractual intent.
-
-**Analysis:** Legal scholarship proposes the “reasonable coder” test—contract terms should anticipate code execution and permit human override [13].
-
-**Solution:**  
-Create a **Code-Mapping Schedule** documenting automation logic, test cases, and override rights; specify that human intent prevails over algorithmic action.
-
----
-
-## 10. Liability-Cap Imbalance  
-
-**Issue:** Uniform caps (e.g., annual fees) inadequately cover regulatory fines or IP loss.
-
-**Analysis:** Empirical contract data shows liability caps often shift risk unfairly onto customers, conflicting with fundamental-duty doctrines [14].
-
-**Solution:**  
-Use **Tiered Liability Caps**:  
-- Base cap = 100 % annual fees.  
-- Uncapped for wilful misconduct, IP infringement, or data-protection penalties.  
-- Vendor to maintain verified cyber-insurance.
+### 6. Practical Drafting Trends (BLG / Rutan)
+- Standard market terms now converge on:  
+  - “As-is” warranties limited to compliance with documentation;  
+  - SLA credits as exclusive remedies;  
+  - Limited liability capped at annual fees;  
+  - Vendor control over subprocessors (with notice + objection window);  
+  - Data portability obligations with defined export format and retention period.  
+- The negotiating leverage lies in **defining “material change”**, **structuring exit assistance**, and **calibrating audit rights**.
 
 ---
 
-## 11. Undefined Data Categories  
+## II. Implications for SaaS Vendors — Legal & Contractual
 
-**Issue:** Ambiguity in defining customer, telemetry, and derived data causes ownership disputes.
+### 1. Security Commitments and Audit Rights
+- Draft **Security Commitment Clauses** to:
+  - Reference ISO/IEC 27001 or SOC 2 compliance frameworks.  
+  - Provide attestation reports upon request under NDA.  
+  - Define incident-notification timelines aligned with GDPR Article 33 and DPDP Section 8.  
 
-**Analysis:** Data-classification failures correlate with disputes over reuse of analytics and AI training sets [9][10].
-
-**Solution:**  
-Include a **Data-Classification Table** defining ownership, permissible use, retention, and deletion timelines.
-
----
-
-## 12. Subprocessor Change Management  
-
-**Issue:** Vendors often replace subprocessors or relocate processing without adequate notice.
-
-**Analysis:** Case studies show compliance failures from hidden subprocessor changes, breaching GDPR Art. 28 (2) and DPDP §10 (5) [2][6].
-
-**Solution:**  
-Mandate a **30-day advance notice** and client-consent process for high-risk subprocessor changes; maintain updated public registry.
+**Why it matters:** Demonstrates compliance maturity without over-disclosing architecture.
 
 ---
 
-## 13. Absence of Acceptance Testing  
-
-**Issue:** Lack of defined acceptance testing shifts functional risk onto customers.
-
-**Analysis:** Implementation audits confirm that clear acceptance criteria and testing protocols reduce defect rates and disputes [4][15].
-
-**Solution:**  
-Add a **Testing & Acceptance Schedule** with measurable criteria, remediation requirements, and termination rights for non-conformance.
+### 2. Variation and Change Management
+- Include a **Material Change Definition** — e.g., “a change that materially degrades core functionality or security assurances.”  
+- Permit unilateral non-material updates; require notice and exit rights for material ones.  
+- Mirror EU DCD Article 19(2): vendor must not unilaterally reduce conformity.  
+- In India/US enterprise contracts, this approach aligns with reasonable expectations doctrine and avoids “unconscionability” challenges.
 
 ---
 
-## 14. Hidden Ancillary Fees  
-
-**Issue:** API overages, storage, or exit-support charges often appear post-contract.
-
-**Analysis:** Price-transparency research shows uncontracted ancillary fees increase total cost 15–20 % over 2 years [16].
-
-**Solution:**  
-Include a **Rate-Card Schedule** listing included services, optional add-ons, escalation caps, and 60-day notice for changes.
+### 3. Subprocessors and Chain of Liability
+- Maintain dynamic subprocessor registry + email notification system.  
+- Insert vendor warranty: “Vendor shall remain responsible for acts and omissions of its subprocessors.”  
+- Align with GDPR Article 28(4) and Indian DPDP Rule 7 obligations for flow-down contractual control.
 
 ---
 
-## 15. Unverified Escrow Rebuilds  
-
-**Issue:** Deposited materials may not enable operational restoration.
-
-**Analysis:** Escrow verifications show 50 % rebuild failure where environment configurations are absent [7].
-
-**Solution:**  
-Require **annual independent rebuild verification**; non-conformance triggers remediation or termination rights.
+### 4. SLAs and Availability Remedies
+- Define **uptime** (e.g., 99.9%) and measurement periods.  
+- Provide **service credits** as exclusive financial remedy.  
+- Carve-out for data breaches or gross negligence to preserve enforceability across jurisdictions.  
+- Provide explicit **termination trigger** after multiple SLA failures (best practice in enterprise SaaS deals).
 
 ---
 
-## Recommended Clause Snippets  
-
-1. **Chain-of-Equivalence** — vendor maintains live subprocessor register; remains liable for breaches.  
-2. **Tenant-Specific SLA** — per-tenant uptime metrics; downtime credits and termination rights.  
-3. **SaaS-Aware Escrow** — deposit source, infrastructure, and scripts; annual rebuild verification.  
-4. **Transfer-Impact Assessment** — 15-day delivery; 45-day remediation; suspension or local-host right.  
-5. **Incident Playbook** — 6/24-hour notices; 30-day RCA; coordinated regulatory disclosure.  
-6. **Smart-Automation Mapping** — code logic documented; human override prevails.  
-7. **Data Export & Deletion** — export within 30 days; secure deletion 60 days; certificate required.  
-8. **Audit Framework** — SOC 2 / ISO 27001 attestations; one focused audit per year under NDA.
+### 5. Data Portability and Exit
+- Offer 30–90 day post-termination export period.  
+- Specify format (CSV, JSON, API endpoint).  
+- Provide reasonable migration support for a fee.  
+- In EU B2C, ensure compliance with DCD Art. 16 & 17 (data portability obligations).
 
 ---
 
-## Summary for Partners  
-
-| Theme | Risk | Recommended Control |
-|-------|------|---------------------|
-| Supply-chain transparency | Hidden subprocessors | Live register; flow-down liability |
-| SLA reliability | Aggregated uptime | Per-tenant metrics; termination rights |
-| Exit & portability | Data lock-in | Verified export & deletion |
-| Escrow adequacy | Incomplete rebuild | Environment-inclusive escrow |
-| Telemetry rights | Derived-data misuse | Taxonomy schedule; opt-out |
-| Transfers | Inadequate safeguards | TIA + localisation fallback |
-| Automation | Code vs contract conflict | Code-mapping; override |
-| Liability | Insufficient caps | Tiered caps; insurance |
-| Pricing | Hidden fees | Rate-card + notice |
-| Testing | No acceptance criteria | Acceptance schedule |
+### 6. Indemnities
+- Provide standard IP indemnity.  
+- Add **data breach indemnity** limited to breaches within vendor’s systems or subprocessors.  
+- Require prompt notification and cooperation for third-party claims.  
+- Retain control over defense.
 
 ---
 
-## References  
+### 7. Smart-Contract Fallback and Code Governance
+**Hybrid drafting recommendation:**
 
-[1] Moneycontrol (2025) EU Data Watchdog Blocks EIB Data Transfer to India — <https://www.moneycontrol.com/technology/eu-data-watchdog-blocks-eib-data-transfer-to-india-citing-privacy-concerns-article-13014369.html>  
-[2] Olusola Akinrolabu et al., “Security Risk Assessment for Cloud Supply Chains,” IEEE (2019) <https://ieeexplore.ieee.org/document/8845733>  
-[3] CERT-IN Directions (28 Apr 2022) <https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf>  
-[4] Rutan & Tucker LLP, *SaaS and Contracts Guide* (2023) <https://www.rutan.com/wp-content/uploads/2023/10/Rutan-SaaS-and-Contracts.pdf>  
-[5] GDPR Art. 28 (3)(g) Processor Obligations <https://gdpr-info.eu/art-28-gdpr/>  
-[6] Digital Personal Data Protection Act 2023 (MeitY) <https://www.meity.gov.in/>  
-[7] Borden Ladner Gervais LLP, *SaaS Agreements – Practical Guide* (2021) <https://www.blg.com/en/insights/2021/07/saas-agreements-a-practical-guide>  
-[8] Oxford University Law Journal, *Interpreting Smart Contracts – Reasonable Coder Approach* (2023) <https://academic.oup.com/>  
-[9] Oxford Internet Institute, *Data Ownership and Platform Governance* (2020) <https://www.oii.ox.ac.uk/>  
-[10] OECD Privacy Guidelines (2022) <https://www.oecd.org/digital/privacy/>  
-[11] CERT-IN Incident Reporting Rule 6 (2022) <https://www.cert-in.org.in/>  
-[12] EU NIS2 Directive (2023) <https://digital-strategy.ec.europa.eu/en/policies/nis2-directive>  
-[13] Oxford Technology Law Review (2022) *Smart Contracts and Interpretation* <https://academic.oup.com/>  
-[14] UNIDROIT Principles of International Commercial Contracts (2016) <https://www.unidroit.org/instruments/commercial-contracts/>  
-[15] ISO 25010 Software Quality Standards <https://www.iso.org/standard/35733.html>  
-[16] Gartner (2024) *SaaS Cost Management Benchmark* <https://www.gartner.com/en/information-technology/glossary/software-as-a-service-saas>
+> *Where the Service incorporates automated code execution (including smart contracts), the natural-language provisions of this Agreement and the accompanying Design Script shall prevail. In the event of a discrepancy between code output and contractual intent, Vendor shall suspend affected execution and remediate in accordance with Section [X] (Rectification).*
+
+**Why:** Ensures contractual enforceability and mitigates "reasonable coder" interpretive risk.
 
 ---
+
+### 8. Financial Safeguards
+- Define billing currency and cost indexation.  
+- Allow cost pass-through for third-party infrastructure inflation exceeding defined thresholds (e.g., >5% per annum).  
+- Include currency-adjustment mechanism for cross-border deals.  
+- Avoid unconditional multi-year fixed-price commitments.
+
+---
+
+### 9. Limitation of Liability
+- Cap at annual fees paid, except for:
+  - Data breaches arising from vendor negligence;  
+  - IP infringement;  
+  - Fraud or willful misconduct.  
+- Exclude indirect and consequential losses (standard-market posture).
+
+---
+
+### 10. Dispute Resolution & Governing Law
+- **India:** arbitration under SIAC or MCIA rules;  
+- **EU:** non-exclusive jurisdiction + data transfer SCC compliance references;  
+- **US:** Delaware or New York law (neutral commercial law).  
+
+Include multi-tier dispute resolution (negotiation → mediation → arbitration/litigation).
+
+---
+
+## III. Jurisdictional Comparison Table
+
+| Issue | India | EU | US |
+|-------|-------|----|----|
+| **Data Security Obligation** | DPDP Act 2023 — vendor as data processor, joint liability for breaches | GDPR + DCD (ongoing conformity) | FTC Act (unfair/deceptive practice) |
+| **Variation Rights** | Contractual freedom; consumer law via CPA 2019 | DCD restricts unilateral modification | Case law-driven (reasonable expectations) |
+| **Data Portability** | No statutory right; contractual best practice | DCD & GDPR Art. 20 | Market practice only |
+| **Subprocessor Control** | Contractual; DPDP Rule 7 requires flow-down | Art. 28(4) GDPR | Commercial contract only |
+| **Smart Contracts** | IT Act recognition of electronic contracts | Admissibility under eIDAS | UCC/contract law interpretation evolving |
+| **Dispute Resolution** | Arbitration-friendly | National procedural rules | Federal/state litigation norms |
+
+---
+
+## IV. Clause Illustrations
+
+### (a) Security Commitments
+> **Vendor shall** maintain an information security program consistent with ISO/IEC 27001 (or equivalent) and implement controls reasonably designed to protect Customer Data. Vendor shall provide Customer, upon written request, with the most recent SOC 2 Type II report or equivalent third-party attestation, subject to confidentiality obligations.
+
+### (b) Material Change / Variation
+> Vendor may modify non-material features or security practices. Material Changes (which materially reduce functionality or security) shall be notified to Customer at least 30 days in advance. If Vendor cannot mitigate a Material Change, Customer may terminate the affected Service and receive pro-rata refunds.
+
+### (c) Data Export / Termination Assistance
+> Upon termination, Vendor shall provide Customer with a self-service export capability for Customer Data in industry-standard format (CSV/JSON) for 60 days. Extended migration assistance may be requested at Vendor’s standard professional services rates.
+
+### (d) Smart-Contract Governance
+> The Parties acknowledge that certain functions are implemented through smart contracts. The Design Script attached as Annex [X] represents the agreed logic. In case of inconsistency between the code output and the Agreement, the latter shall prevail.
+
+---
+
+## V. Strategic Takeaways for Partners
+
+1. **Balance disclosure with control:** Regulatory pressure demands transparency, but over-disclosure risks IP exposure. Use attestation-based compliance.  
+2. **Structure for flexibility:** SaaS depends on continuous improvement — draft change clauses with operational agility yet legal defensibility.  
+3. **Preserve contextual interpretation:** As automation increases, retain natural-language primacy over code.  
+4. **Embed economic safeguards:** Indexed pricing and modular SLAs sustain profitability in volatile infrastructure markets.  
+5. **Anticipate multi-jurisdictional enforcement:** Standardize global template with localized annexes for India, EU, and US law.
+
+---
+
+## VI. References (Key Research Sources)
+
+1. **Oxford University — “Contracting for Cloud Services” (Consumer Data Security Frameworks)**  
+2. **OUULJ 12th Edition — “Interpreting Smart Contracts: The Reasonable Coder and the Need for Contextual Approach” (2022)**  
+3. **BLG — “SaaS Agreements: Practical Guide for Counsel” (2021)**  
+4. **Rutan & Tucker — “SaaS and Contracts: Common Pitfalls” (2023)**  
+5. **Olusola Akinrolabu et al. — “Cloud Assurance and SaaS Risk in Multi-Cloud Environments” (2019)**  
+6. **Sectra Linköping University — “Profitability Impact of SaaS Contract Models” (2019)**  
+7. **World Commerce & Contracting — “SaaS Contracting Guide” (2020)**  
+
+---
+
+**End of Advisory Note**
