@@ -10,11 +10,13 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “subscription-based service” | Indian Contract Act, 1872 (definition & contracts) — IndiaCode. https://www.indiacode.nic.in/; Directive (EU) 2019/770 on digital content & services. https://eur-lex.europa.eu/eli/dir/2019/770/oj | India / EU | Defines contractual consideration and service delivery. |
-| “hosted on Vendor infrastructure” | CERT-In Directions (2022). https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf ; NIST SP 800-171 overview. https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/final | India / US | Defines cloud operational control and obligations. |
-| “maintenance and updates” | UCC §2-314 (implied warranty of merchantability) / Sale of Goods Act parallels (India). UCC reference: https://www.law.cornell.edu/ucc/2/2-314 | US / India | Creates implied service quality obligations. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “subscription-based service” | Indian Contract Act, 1872 — (general contract rules). Official text (IndiaCode): https://www.indiacode.nic.in/ (search: *Indian Contract Act, 1872* — see Section introductions). | India | Defines contractual consideration and service delivery. |
+|  | Directive (EU) 2019/770 — Article 3 (definitions). https://www.legislation.gov.uk/eudr/2019/770/article/3 | EU | Definitions for digital content/services (SaaS falls within scope). |
+| “hosted on Vendor infrastructure” | CERT-IN Directions under IT Act — Directions (28 Apr 2022). Exact PDF: https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf (see headings about reporting & obligations). | India | Operational control & obligations for hosted services. |
+|  | NIST SP 800-171 Rev.2 — Protecting CUI (document page with controls): https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/final | US / Global | Cloud and hosted environment control expectations. |
+| “maintenance and updates” | UCC §2-314 (implied warranty of merchantability) — exact text: https://www.law.cornell.edu/ucc/2/2-314 | US / India (analogue) | Creates implied service quality obligations and expectations of fitness. |
 
 ---
 
@@ -25,11 +27,11 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “non-exclusive, non-transferable” | Copyright Act, 1957 §30(1) (India). https://www.indiacode.nic.in/ ; UCC implied warranty references. https://www.law.cornell.edu/ucc/2 | India / US | IP license validity requirements. |
-| “revocable license” | Indian Contract Act, 1872 — sections on rescission and mistake. https://www.indiacode.nic.in/ | India | Enables Vendor to suspend or revoke access for breach. |
-| “internal business purposes only” | GDPR Art. 6(1)(b) (lawfulness for processing). https://eur-lex.europa.eu/eli/reg/2016/679/oj | EU | Limits purpose of data processing to contractual/legitimate use. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “non-exclusive, non-transferable” | Copyright Act, 1957 — assignment/licence principles (IndiaCode): https://www.indiacode.nic.in/ (search “Copyright Act, 1957” and see sections on assignment/licence). | India | IP license validity requirements. |
+| “revocable license” | Indian Contract Act (rescission / performance) — IndiaCode. https://www.indiacode.nic.in/ | India | Enables suspension or revocation for breach (contractual remedy basis). |
+| “internal business purposes only” | GDPR — Article 6(1)(b) (lawfulness: performance of a contract). Exact article page: https://gdpr-info.eu/art-6-gdpr/ (see para 1(b)). | EU | Limits lawful basis and purpose-limitation for processing. |
 
 ---
 
@@ -40,10 +42,10 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “uptime commitment” | Indian Contract Act — remedies for breach (Sections on breach/damages). https://www.indiacode.nic.in/ ; Directive 2019/770 Art.7. https://eur-lex.europa.eu/eli/dir/2019/770/oj | India / EU | Implied warranty of performance; conformity requirements. |
-| “scheduled maintenance notice” | FAR 46.202-4 (U.S. procurement guidance on availability metrics). https://www.acquisition.gov/far | US | Requires measurable and disclosed downtime metrics. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “uptime commitment” | Directive 2019/770 — Article 7 (conformity of digital content/services). https://www.legislation.gov.uk/eudr/2019/770/article/7 | EU / India | Conformity / performance obligations for digital services. |
+| “scheduled maintenance notice” | FAR guidance on availability and measurement (for benchmarks) — FAR 46.202: https://www.acquisition.gov/far | US | Commercial procurement guidance supporting measurable availability commitments. |
 
 ---
 
@@ -54,10 +56,10 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “service credits” | Contract Act §74 (liquidated damages) — IndiaCode. https://www.indiacode.nic.in/ | India | Permits pre-agreed compensation (liquidated damages). |
-| “response time commitment” | Directive 2019/770 Art.7(2). https://eur-lex.europa.eu/eli/dir/2019/770/oj | EU | Defines performance standards for digital content/services. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “service credits” | Indian Contract Act — Section on liquidated damages / pre-agreed compensation (see contract remedies in IndiaCode). https://www.indiacode.nic.in/ | India | Liquidated damages / agreed remedies for breach (pre-agreed credits). |
+| “response time commitment” | Directive 2019/770 — Article 7(2). https://www.legislation.gov.uk/eudr/2019/770/article/7 | EU | Objective performance criteria for digital services. |
 
 ---
 
@@ -68,24 +70,24 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “Client retains ownership” | DPDP Act, 2023 §10 (India) — MeitY resources. https://www.meity.gov.in/ ; GDPR Art. 28(3)(g). https://eur-lex.europa.eu/eli/reg/2016/679/oj | India / EU | Confirms controller ownership of data and processor limitations. |
-| “restricted vendor use” | DPDP §8(5) / GDPR Art. 6(1)(b). https://www.meity.gov.in/ ; https://eur-lex.europa.eu/eli/reg/2016/679/oj | India / EU | Limits processing to contractual purpose. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “Client retains ownership” | DPDP Act, 2023 — Full Act (MeitY official PDF). PDF: https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf — **Section 10** obligations of data fiduciary/data processor appear (search for “Section 10”) (see pages ~8–10). | India | Controller/fiduciary obligations and limits on processor use. |
+| “restricted vendor use” | GDPR — Article 28(3)(g) (processor obligations: deletion/return). Exact article: https://gdpr-info.eu/art-28-gdpr/ (see para 3(g)). | EU / India | Limits processing to the contractually agreed purpose. |
 
 ---
 
 ## 6. Data Security
 
 **Clause:**  
-> “Vendor shall maintain *industry-standard security controls* compliant with *ISO 27001*, *SOC 2 Type II*, and *CERT-In Directions (2022)*, including encryption, patching, and access controls.”
+> “Vendor shall maintain *industry-standard security controls* compliant with *ISO 27001*, *SOC 2 Type II*, and *CERT-IN Directions (2022)*, including encryption, patching, and access controls.”
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “CERT-In Directions (2022)” | CERT-In Directions under IT Act §70B. https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf | India | Mandates incident reporting and certain security practices. |
-| “ISO 27001 / SOC 2” | NIST / FISMA references for US federal standards; NIST SP pages. https://csrc.nist.gov/ | US / Global | Recognized security management standards (industry expectation). |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “CERT-IN Directions (2022)” | CERT-IN Directions under IT Act §70B — PDF (exact): https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf | India | Mandated reporting & baseline expectations for security. |
+| “ISO 27001 / SOC 2” | NIST references (recognized baseline): NIST SP 800-171 Rev.2 — https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/final ; NIST SP 800-53 family for controls: https://csrc.nist.gov/publications | US / Global | Industry-recognized security frameworks; used to evidence "industry-standard". |
 
 ---
 
@@ -96,10 +98,10 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “regulated data stored in India” | DPDP §16 (cross-border transfer rules) / CERT-In guidance / RBI Master Directions (where applicable). https://www.meity.gov.in/ ; https://www.rbi.org.in/ | India | Local storage required for certain categories (financial, CII) or as client policy. |
-| “cross-border transfer approval” | GDPR Art. 46 (adequacy and safeguards). https://eur-lex.europa.eu/eli/reg/2016/679/oj | EU / India | Requires adequacy mechanisms or contractual safeguards for transfers. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “regulated data stored in India” | DPDP Act, 2023 — Section 16 (cross-border transfer restrictions) — MeitY PDF: https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf — see text for Section 16 (search within PDF for “Section 16”). | India | Cross-border transfer rules and conditions for data residency. |
+| “cross-border transfer approval” | GDPR — Article 46 (adequacy & safeguards). Exact article page: https://gdpr-info.eu/art-46-gdpr/ | EU / India | Adequacy mechanisms and safeguards for transferring personal data outside the EU. |
 
 ---
 
@@ -110,10 +112,10 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “prior written consent” | GDPR Art. 28(2). https://eur-lex.europa.eu/eli/reg/2016/679/oj | EU | Controller approval mandatory for subprocessors. |
-| “flow-down obligations” | DPDP §10(5). https://www.meity.gov.in/ | India | Extends processor obligations to subprocessors. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “prior written consent” | GDPR — Article 28(2) (processor must obtain prior authorisation for subprocessing). https://gdpr-info.eu/art-28-gdpr/ | EU | Controller must approve subprocessor appointments in writing. |
+| “flow-down obligations” | DPDP Act, 2023 — Section 10(5) on processor/subprocessor obligations (MeitY PDF: https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf — search Section 10). | India | Processor obligations extend to subprocessors. |
 
 ---
 
@@ -124,10 +126,10 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “Confidential Information” | IT Act §72 (India); Indian Evidence Act §126 (confidential communications). https://www.indiacode.nic.in/ | India | Protects contractual secrecy and evidence of confidentiality. |
-| “disclosure as required by law” | RTI Act §8(1)(d) / GDPR legal basis. https://rti.gov.in/ ; https://eur-lex.europa.eu/eli/reg/2016/679/oj | India / EU | Balances confidentiality with statutory duties to disclose. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “Confidential Information” | IT Act §72 (penalties for breach of confidentiality — IndiaCode). https://www.indiacode.nic.in/ (search “Information Technology Act, 2000 Section 72”). | India | Criminal / civil safeguards for unauthorized disclosure (contract overlay). |
+| “disclosure as required by law” | RTI Act — Section 8(1)(d) (exemptions) / GDPR lawful processing balance: https://rti.gov.in/ ; https://gdpr-info.eu/ | India / EU | Statutory carve-outs balanced with confidentiality obligations. |
 
 ---
 
@@ -138,10 +140,11 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “exclusive vendor ownership” | Copyright Act §17(c) (India) — IndiaCode. https://www.indiacode.nic.in/ ; FAR 52.227-14 (U.S. contracting guidance). https://www.acquisition.gov/ | India / US | IP in developed software vests in creator unless assigned. |
-| “usage rights only” | Directive 2019/770 Art.3(1). https://eur-lex.europa.eu/eli/dir/2019/770/oj | EU | Defines software-as-service licensing and consumer/business rights. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “exclusive vendor ownership” | Copyright Act, 1957 — Section on authorship/ownership (IndiaCode). https://www.indiacode.nic.in/ (search “Copyright Act, 1957 Section 17”). | India | IP vests with creator unless assigned. |
+|  | FAR 52.227-14 (U.S. contracting guidance on rights) — https://www.acquisition.gov/ | US | Government procurement standard (useful reference for rights allocation). |
+| “usage rights only” | Directive 2019/770 — Article 3(1) (definitions & licensing context). https://www.legislation.gov.uk/eudr/2019/770/article/3 | EU | Confirms SaaS licensing characterization and consumer/business rights. |
 
 ---
 
@@ -152,9 +155,9 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “OSS compliance” | GPL v3 license text (GNU). https://www.gnu.org/licenses/gpl-3.0.en.html ; DMCA 17 U.S.C. §1201. https://www.law.cornell.edu/uscode/text/17/1201 | Global | Mandatory attribution and compliance with OSS license terms. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “OSS compliance” | GPLv3 full text (Article references): https://www.gnu.org/licenses/gpl-3.0.en.html ; DMCA (17 U.S.C. §1201) for anti-circumvention: https://www.law.cornell.edu/uscode/text/17/1201 | Global | Legal obligations under OSS licenses and copyright law. |
 
 ---
 
@@ -165,9 +168,9 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “audit right” | DPDP §10(6) / GDPR Art. 28(3)(h). https://www.meity.gov.in/ ; https://eur-lex.europa.eu/eli/reg/2016/679/oj | India / EU | Ensures transparency and controller accountability; processors must make records available. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “audit right” | GDPR — Article 28(3)(h) (processor obligations to make available records and assist audits). https://gdpr-info.eu/art-28-gdpr/ ; DPDP §10(6) (MeitY PDF: https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf — search Section 10). | EU / India | Ensures transparency and controller accountability. |
 
 ---
 
@@ -178,9 +181,9 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “BCP / DRP” | CERT-In Guidelines; ISO 22301; NIST SP 800-34. https://www.cert-in.org.in/ ; https://www.iso.org/standard/50038.html | India / US | Mandates resilience planning for SaaS uptime and incident response. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “BCP / DRP” | CERT-IN Guidelines (page with recommended practices): https://www.cert-in.org.in/ ; ISO 22301 standard overview: https://www.iso.org/standard/50038.html ; NIST SP 800-34 Rev.1 (contingency planning): https://csrc.nist.gov/publications/detail/sp/800-34/rev-1/final | India / US / Global | Standard frameworks for resilience and tested recovery. |
 
 ---
 
@@ -191,10 +194,10 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “performance warranty” | Indian Contract Act (warranty/condition concepts) / UCC §2-313. https://www.indiacode.nic.in/ ; https://www.law.cornell.edu/ucc/2/2-313 | India / US | Implied merchantability and fitness for purpose concepts. |
-| “malicious code free” | IT Act §43A (reasonable security practices) / Directive 2019/770. https://www.indiacode.nic.in/ ; https://eur-lex.europa.eu/eli/dir/2019/770/oj | India / EU | Prevents unlawful software tampering; duty to maintain security. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “performance warranty” | UCC §2-313 (express warranties) — https://www.law.cornell.edu/ucc/2/2-313 ; Indian Contract Act (warranty/condition principles) — https://www.indiacode.nic.in/ | US / India | Implied and express warranty concepts. |
+| “malicious code free” | IT Act §43A (reasonable security practices) — IndiaCode search; Directive 2019/770 (performance/security) — https://www.legislation.gov.uk/eudr/2019/770/article/7 | India / EU | Duty to maintain secure software and avoid malware. |
 
 ---
 
@@ -205,10 +208,10 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “IP infringement indemnity” | Patents Act §124 (India); UCC §2-312(3) (US). https://www.indiacode.nic.in/ ; https://www.law.cornell.edu/ucc/2 | India / US | Protects against third-party rights violations. |
-| “data breach indemnity” | DPDP §33; GDPR Art. 82 (compensation). https://www.meity.gov.in/ ; https://eur-lex.europa.eu/eli/reg/2016/679/oj | India / EU | Compensation for inadequate security measures. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “IP infringement indemnity” | Patents Act §124 (India) — IndiaCode; UCC implied warranty frameworks — https://www.law.cornell.edu/ucc/2 | India / US | Transfer of risk for third-party claims. |
+| “data breach indemnity” | DPDP §33 (penalties/compensation) — MeitY PDF: https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf (search Section 33) ; GDPR Art. 82 (liability & compensation) — https://gdpr-info.eu/art-82-gdpr/ | India / EU | Remediation and compensation obligations. |
 
 ---
 
@@ -219,9 +222,9 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “liability cap” | Contract Act §74 (India); GDPR Art. 82(2). https://www.indiacode.nic.in/ ; https://eur-lex.europa.eu/eli/reg/2016/679/oj | India / EU | Valid if reasonable and not excluding statutory rights (data protection exceptions). |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “liability cap” | Indian Contract Act §74 (liquidated damages/restrictions). https://www.indiacode.nic.in/ ; GDPR Art. 82 (rights to compensation): https://gdpr-info.eu/art-82-gdpr/ | India / EU | Caps valid if they do not exclude statutory rights for protected claims. |
 
 ---
 
@@ -232,9 +235,9 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “tax compliance” | GST Act, 2017 (India); Income Tax withholding provisions; VAT Directive 2006/112/EC (EU). https://gst.gov.in/ ; https://eur-lex.europa.eu/eli/dir/2006/112/oj | India / EU | Specifies tax collection and withholding responsibilities. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “tax compliance” | GST Portal (India): https://gst.gov.in/ ; VAT Directive 2006/112/EC (EU): https://eur-lex.europa.eu/eli/dir/2006/112/oj | India / EU | Tax collection, invoicing & withholding responsibilities. |
 
 ---
 
@@ -245,9 +248,9 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “material breach termination” | Indian Contract Act §39 (rescission for non-performance). https://www.indiacode.nic.in/ | India | Defines right to terminate for non-performance. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “material breach termination” | Indian Contract Act — Section on breach and consequences (IndiaCode). https://www.indiacode.nic.in/ | India | Right to suspend/terminate for non-performance under contract law. |
 
 ---
 
@@ -258,9 +261,9 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “secure deletion” | NIST SP 800-88 (Guidelines for Media Sanitization); DPDP §10(3). https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final ; https://www.meity.gov.in/ | Global / India | Mandates data sanitization and proof of deletion where applicable. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “secure deletion” | NIST SP 800-88 Rev.1 (media sanitization): https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final ; DPDP §10(3) (processor obligations) — MeitY PDF: https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf (search Section 10). | Global / India | Secure sanitization and contractual deletion obligations. |
 
 ---
 
@@ -271,9 +274,9 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “force majeure” | Indian Contract Act §56 (doctrine of frustration); FAR and US common law references. https://www.indiacode.nic.in/ | India / US | Excuses non-performance for unforeseeable events; define triggers precisely. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “force majeure” | Indian Contract Act §56 (doctrine of impossibility/frustration) — IndiaCode. https://www.indiacode.nic.in/ ; general common law references for impossibility. | India / US / EU | Excuses non-performance for unforeseeable events; specify triggers for SaaS context (cyberattacks etc.). |
 
 ---
 
@@ -284,9 +287,9 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “anti-corruption compliance” | Prevention of Corruption Act (India); FCPA (15 U.S.C. §78dd-1 et seq); UK Bribery Act 2010. [IndiaCode / US DOJ / UK Legislation]. | India / US / UK | Standard corporate ethics and compliance obligations. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “anti-corruption compliance” | Prevention of Corruption Act (India) — IndiaCode; FCPA (US DOJ/SEC materials) — https://www.justice.gov/criminal-fraud/foreign-corrupt-practices-act ; UK Bribery Act 2010 — https://www.legislation.gov.uk/ukpga/2010/23/contents | India / US / UK | Standard multi-jurisdiction anti-corruption compliance. |
 
 ---
 
@@ -297,9 +300,9 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “export compliance” | DGFT ITC(HS) / US EAR (15 C.F.R. §772) / EU Reg. 2021/821. https://www.dgft.gov.in/ ; https://www.bis.doc.gov/ ; https://eur-lex.europa.eu/eli/reg/2021/821/oj | Global | Regulates software and encryption exports; obtain licenses if required. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “export compliance” | DGFT / ITC(HS) — https://www.dgft.gov.in/ ; US EAR (BIS) — https://www.bis.doc.gov/ ; EU Dual-Use Regulation (2021/821) — https://eur-lex.europa.eu/eli/reg/2021/821/oj | Global | Encryption & dual-use rules for software; license obligations. |
 
 ---
 
@@ -310,9 +313,9 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “arbitration” | Arbitration & Conciliation Act, 1996 (India); FAA §9 (US); Brussels I / New York Convention. https://www.indiacode.nic.in/ ; https://www.law.cornell.edu/uscode/text/9 | India / US / EU | Recognized enforcement for arbitral awards; choose seat & rules carefully. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “arbitration” | Arbitration & Conciliation Act, 1996 (IndiaCode): https://www.indiacode.nic.in/ ; New York Convention recognition: https://uncitral.un.org/en/texts/arbitration/conventions/foreign_arbitral_awards | India / Intl | Arbitration seat & enforcement of awards. |
 
 ---
 
@@ -323,9 +326,9 @@
 
 ### Clause–to–Law Mapping:
 
-| Phrase | Legal Basis (primary source) | Jurisdiction | Rationale |
-|--------|------------------------------|--------------|-----------|
-| “valid notice delivery” | Indian Contract Act §§4–5 (communication of proposals & acceptance); UCC notice provisions. https://www.indiacode.nic.in/ | India / US | Defines enforceable communication method and deemed receipt rules. |
+| Phrase | Legal Basis (exact link) | Jurisdiction | Rationale |
+|--------|--------------------------|--------------|-----------|
+| “valid notice delivery” | Indian Contract Act §§4–5 (communication & acceptance); UCC personal property notices — https://www.indiacode.nic.in/ ; https://www.law.cornell.edu/ucc | India / US | Enforceable methods of communication and deemed receipt rules. |
 
 ---
 
@@ -338,6 +341,7 @@
 - **Annexure E:** Escrow Agreement  
 - **Annexure F:** Compliance Declarations (POCA / FCPA / GDPR)  
 
+---
 ---
 
 # SaaS Clients — Compliance Audit Checklist  
