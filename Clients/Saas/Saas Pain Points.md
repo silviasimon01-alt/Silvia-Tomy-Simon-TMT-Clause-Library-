@@ -209,14 +209,13 @@ Include multi-tier dispute resolution (negotiation → mediation → arbitration
 
 ## VI. References (Key Research Sources)
 
-1. **Oxford University — “Contracting for Cloud Services” (Consumer Data Security Frameworks)**  
-2. **OUULJ 12th Edition — “Interpreting Smart Contracts: The Reasonable Coder and the Need for Contextual Approach” (2022)**  
-3. **BLG — “SaaS Agreements: Practical Guide for Counsel” (2021)**  
-4. **Rutan & Tucker — “SaaS and Contracts: Common Pitfalls” (2023)**  
-5. **Olusola Akinrolabu et al. — “Cloud Assurance and SaaS Risk in Multi-Cloud Environments” (2019)**  
-6. **Sectra Linköping University — “Profitability Impact of SaaS Contract Models” (2019)**  
-7. **World Commerce & Contracting — “SaaS Contracting Guide” (2020)**  
-
+1. **Oxford University — “Contracting for Cloud Services” (Consumer Data Security Frameworks)** <https://academic.oup.com/ijlit/article/25/1/1/2525429> 
+2. **OUULJ 12th Edition — “Interpreting Smart Contracts: The Reasonable Coder and the Need for Contextual Approach” (2022)**  <https://www.law.ox.ac.uk/sites/default/files/inline-files/OUULJ%2012th%20Edition_Interpreting%20Smart%20Contracts-%20the%20Reasonable%20Coder%20and%20the%20need%20for%20a%20Stronger%20Contextual%20Approach.pdf>
+3. **BLG — “SaaS Agreements: Practical Guide for Counsel” (2021)** <https://www.blg.com/en/insights/2022/10/saas-agreements-a-practical-guide>
+4. **Rutan & Tucker — “SaaS and Contracts: Common Pitfalls” (2023)**  <https://www.acc.com/sites/default/files/2023-10/2023-10-17%20Rutan-SAAS%20and%20Contracts-PPTX.pdf>
+5. **Olusola Akinrolabu et al. — “Cloud Assurance and SaaS Risk in Multi-Cloud Environments” (2019)**  <https://www.researchgate.net/publication/333149927_Assessing_the_Security_Risks_of_Multicloud_SaaS_Applications_A_Real-World_Case_Study>
+6. **Sectra Linköping University — “Profitability Impact of SaaS Contract Models” (2019)**  <https://liu.diva-portal.org/smash/get/diva2:1978754/FULLTEXT01.pdf> 
+7. **World Commerce & Contracting — “SaaS Contracting Guide” (2020)**  <https://www.worldcc.com/Portals/IACCM/SaaS%20Contracting%20Guide.pdf> 
 ---
 
 
