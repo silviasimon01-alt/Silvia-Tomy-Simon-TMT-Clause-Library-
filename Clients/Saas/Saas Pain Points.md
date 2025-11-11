@@ -1,4 +1,4 @@
-# SaaS Contracting Advisory Note — Legal, Commercial & Technological Risks (India–EU–US)
+# SaaS Contracting Advisory Note: Legal, Commercial & Technological Risks (India–EU–US)
 
 
 **Audience:** Partners, Senior Associates & Transaction Counsel  
@@ -23,7 +23,7 @@ This note synthesizes the above into actionable implications for **vendors/servi
 
 ---
 
-## I. Research-Based Analysis — Core Themes Across the Literature
+## I. Research-Based Analysis: Core Themes Across the Literature
 
 ### 1. Contractual Architecture: From License to Access
 - SaaS contracts are **not software licenses** but **access and service contracts**.  
@@ -35,7 +35,7 @@ This note synthesizes the above into actionable implications for **vendors/servi
 
 ---
 
-### 2. Data Security and Transparency — The Regulatory Shift
+### 2. Data Security and Transparency: The Regulatory Shift
 - EU research highlights that **data security is now a performance attribute**, not an ancillary obligation.  
 - Under the **DCD (EU)**, a digital service must “remain in conformity” throughout the subscription term — including maintaining security updates.  
 - **FTC (US)** enforcement trends show that deceptive representations around “secure cloud storage” or “GDPR-compliant SaaS” can trigger unfair-trade liability.  
@@ -82,7 +82,7 @@ This note synthesizes the above into actionable implications for **vendors/servi
 
 ---
 
-## II. Implications for SaaS Vendors — Legal & Contractual
+## II. Implications for SaaS Vendors: Legal & Contractual
 
 ### 1. Security Commitments and Audit Rights
 - Draft **Security Commitment Clauses** to:
@@ -219,4 +219,4 @@ Include multi-tier dispute resolution (negotiation → mediation → arbitration
 
 ---
 
-**End of Advisory Note**
+
