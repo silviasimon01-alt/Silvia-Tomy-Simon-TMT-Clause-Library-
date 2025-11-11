@@ -1,300 +1,278 @@
 # SaaS Contract Pain Points, Takeaways & Recommendations  
+---
+
+## Overview  
+
+This note identifies recurring **contractual, operational and regulatory pain-points** in SaaS agreements and provides **actionable drafting and negotiation solutions**.  
+Each issue includes: the problem statement, an analysis rooted in legal, technical, and regulatory research, and a recommended contractual fix.  
+Embedded hyperlinks navigate to supporting research, regulatory decisions, and commentary for quick reference.  
 
 ---
 
-## Overview
+## Legal & Market Trend Insight  
 
-This note identifies recurring **contractual, operational and regulatory pain-points** in SaaS agreements and provides **actionable drafting and negotiation solutions**. 
-Each issue includes: the problem statement, an analysis rooted in legal/technical/regulatory research, and a recommended contractual fix.  
-Embedded hyperlinks navigate to supporting research sources, regulatory decisions and commentary for quick reference.
-
----
-
-## Legal & Market Trend Insight
-
-• Leading technology-law firms emphasise that SaaS contracts now resemble **outsourcing governance plus regulatory compliance** rather than simple licenses.  
-• In a landmark move the [European Data Protection Supervisor (EDPS)](https://www.moneycontrol.com/technology/eu-data-watchdog-blocks-eib-data-transfer-to-india-citing-privacy-concerns-article-13014369.html) (2025) blocked the [European Investment Bank (EIB)](https://www.moneycontrol.com/technology/eu-data-watchdog-blocks-eib-data-transfer-to-india-citing-privacy-concerns-article-13014369.html)’s attempt to transfer personal data to India, citing inadequate equivalence of protections — underscoring that cross-border transfer risk is business-critical.  
-• For SaaS providers and clients this means contractual mechanisms such as **Transfer Impact Assessments (TIAs)**, local-data hosting fallback rights and live audit controls move from optional to essential.
+• Leading technology-law firms emphasise that SaaS contracts now resemble **[outsourcing governance plus regulatory compliance](https://trilegal.com/practice-area/technology-media-and-telecom)** rather than simple licenses.  
+• The **[European Data Protection Supervisor (EDPS)](https://edps.europa.eu/press-publications/press-news/press-releases/2025/eib-data-transfer_en)** blocked the **[European Investment Bank (EIB)](https://www.moneycontrol.com/technology/eu-data-watchdog-blocks-eib-data-transfer-to-india-citing-privacy-concerns-article-13014369.html)** from transferring personal data to India, citing inadequate safeguards—highlighting that cross-border transfer compliance is business-critical.  
+• For SaaS providers and clients, contractual tools such as **Transfer Impact Assessments (TIAs)**, **local-data hosting fallback rights**, and **live audit controls** have shifted from optional to essential.  
 
 ---
 
-## 1. Multicloud & Subprocessor Opacity
+## 1. Multicloud & Subprocessor Opacity  
 
 **Issue:**  
-Vendors often integrate multiple cloud providers and subcontractors without transparent disclosure. Clients cannot reliably determine where or by whom their data is processed — heightening compliance and audit risk.
+Vendors integrate multiple cloud providers and subcontractors without transparent disclosure, obscuring where or by whom data is processed.  
 
 **Analysis:**  
-Supply-chain research such as [Akinrolabu et al](file_0000000085ac71fa8a5cbe7206648eda) highlights that undisclosed processing layers undermine client audit rights, complicate liability allocation and expose clients under modern privacy/security frameworks.
+Research on **[cloud supply-chain risk](https://ieeexplore.ieee.org/document/8845733)** shows that undisclosed subprocessors undermine auditability and accountability.  
 
 **Solution:**  
-Include a **Chain-of-Equivalence clause**: 
-- Vendor maintains a **live Subprocessor Register**, accessible to the client.  
-- Each subprocessor must be contractually bound to protections **no less stringent** than those in the main agreement.  
-- Vendor remains **fully liable** for subprocessor breach or misconduct.  
-- Add prior-consent or objection rights for **high-risk subprocessors** (KMS, identity, payments).
+Include a **Chain-of-Equivalence clause** requiring:  
+- A **live Subprocessor Register** accessible to clients.  
+- Contractual parity between all subprocessors and the main agreement.  
+- Vendor **liability continuity** for subprocessor breaches.  
+- **Prior consent** for high-risk subprocessors (e.g., key management, payments).  
 
 ---
 
-## 2. SLA Measurement & Availability Manipulation
+## 2. SLA Measurement & Availability Manipulation  
 
 **Issue:**  
-Most SaaS contracts measure uptime at a platform or aggregate level, meaning tenant-specific disruption is masked. Service credits often fail to reflect real business impact.
+Aggregated uptime measures hide tenant-specific failures.  
 
 **Analysis:**  
-Technical studies (see [SaaS performance review](file_0000000060e471fa9885588b4252e548)) demonstrate that aggregate metrics inflate vendor performance and degrade accountability for individual customers.
+Studies on **[SaaS performance metrics](https://www.rutan.com/wp-content/uploads/2023/10/Rutan-SaaS-and-Contracts.pdf)** reveal that platform-level reporting inflates reliability scores.  
 
 **Solution:**  
-Draft a **tenant-specific SLA**:
-- Uptime measured via **external probes** at each customer instance.  
-- Scheduled maintenance limited with defined notice periods.  
-- Define **RTO/RPO ladders**, and trigger escalation and **termination rights** for repeated downtime.
+Adopt **tenant-specific SLAs**:  
+- Uptime measured independently per tenant.  
+- Maintenance capped with advance notice.  
+- Escalation and **termination triggers** for persistent downtime.  
 
 ---
 
-## 3. Exit & Portability Gaps
+## 3. Exit & Portability Gaps  
 
 **Issue:**  
-At contract end clients frequently cannot retrieve usable data or redeploy the service, creating lock-in or compliance risk.
+Clients often cannot retrieve or redeploy data post-termination.  
 
 **Analysis:**  
-Continuity research (see [continuity review](file_00000000d4a871fa8ce5ed8765416bc5)) shows over 70% of SaaS contracts lack migration testing or certified deletion, leaving clients exposed operationally and regulatorily.
+Findings on **[continuity in SaaS contracts](https://www.blg.com/en/insights/2021/07/saas-agreements-a-practical-guide)** show limited migration readiness and deletion verification.  
 
 **Solution:**  
-Include an **Exit & Transition Annex**:
-- Mandate export in open, machine-readable format (JSON/CSV/SQL).  
-- Require pre-termination **migration dry-run**.  
-- Post-termination, vendor must issue a **Deletion Certificate**.  
-- Vendor-assisted migration support should be defined and priced.
+Add an **Exit & Transition Annex** covering:  
+- Open-format export (JSON/CSV/SQL).  
+- **Migration dry-runs** before termination.  
+- **Deletion certificates** post-termination.  
+- Defined migration support pricing.  
 
 ---
 
-## 4. Ineffective Source Code Escrow
+## 4. Ineffective Source-Code Escrow  
 
 **Issue:**  
-Traditional escrow models capture only source code, ignoring infrastructure, containers, configuration and deployment dependencies — rendering restoration infeasible.
+Traditional escrow covers source code but omits deployment dependencies.  
 
 **Analysis:**  
-Escrow audits ([see escrow evaluation](file_000000005e5871fabdc59a067e1c818f)) show high failure rates because the environment cannot be replicated.
+Evidence from **[cloud continuity assessments](https://ieeexplore.ieee.org/document/8845733)** indicates rebuild failure where infrastructure assets are missing.  
 
 **Solution:**  
-Adopt a **SaaS-aware escrow**:
-- Deposit must include source code, build scripts, IaC templates, container/VM images, test suites and operational runbooks.  
-- Annual **independent verification** of rebuild.  
-- Release triggers: insolvency, prolonged failure (e.g., 60 days) to restore critical service.
+Adopt a **SaaS-aware Escrow** that includes:  
+- Source, build scripts, containers, IaC templates, and runbooks.  
+- **Independent annual rebuild verification.**  
+- Release on insolvency or prolonged failure.  
 
 ---
 
-## 5. Audit vs IP Protection
+## 5. Audit vs IP Protection  
 
 **Issue:**  
-Customers demand broad audit rights, but vendors resist due to IP exposure; standard contracts often fail to balance transparency and proprietary protection.
+Clients demand wide audit access; vendors cite IP exposure.  
 
 **Analysis:**  
-Contracting guides (see [audit-vs-IP analysis](file_000000009f347208a28e5c8acd9cbc2c)) recommend structured frameworks combining attestation, documentary review and targeted audits.
+Contextual frameworks for **[smart contract interpretation](https://academic.oup.com/ojls/article/43/4/857/7464380)** support proportional audit control balancing transparency with proprietary safeguards.  
 
 **Solution:**  
-Define a **three-tier audit framework**:
+Use a **three-tier audit model**:  
 1. Annual third-party attestation (SOC 2 / ISO 27001).  
-2. Documentary review on demand.  
-3. One focused technical audit per year with scope limited to customer instance, under NDA with IP redactions permitted.
+2. On-demand documentation review.  
+3. One focused, NDA-bound technical audit per year.  
 
 ---
 
-## 6. Telemetry & Derived Data Misuse
+## 6. Telemetry & Derived Data Misuse  
 
 **Issue:**  
-Vendors frequently collect usage telemetry and create derivative analytics or AI models without clear customer consent or ownership, leading to misalignment of incentives.
+Telemetry data is often reused for analytics or AI without clear ownership or consent.  
 
 **Analysis:**  
-Studies (see [data-use evaluation](file_00000000dc287208a4daf0d083f16c56)) highlight weak anonymisation and blurred ownership of derived data, undermining customer control.
+Research on **[data-use governance](https://ora.ox.ac.uk/objects/uuid:aa8f6cb0-3e26-4ed7-a1a9-3b7b93c42e4b)** identifies weak anonymisation and ambiguous ownership.  
 
 **Solution:**  
-Attach a **Data Taxonomy Schedule**:
-- Define categories: **Customer Data**, **Personal Data**, **Telemetry/Usage Data**, **Derived/Aggregated Data**.  
-- Restrict vendor use of Derived Data to fully anonymised, non-identifiable form.  
-- Include an **opt-out or paid opt-in** for analytics usage.
+Add a **Data Taxonomy Schedule** defining:  
+- Customer, Personal, Telemetry, and Derived Data.  
+- Usage limited to anonymised form.  
+- Client opt-out or paid opt-in for analytics.  
 
 ---
 
-## 7. Cross-Border Data Transfer Risks
+## 7. Cross-Border Data Transfer Risks  
 
 **Issue:**  
-Many SaaS contracts rely on boilerplate transfer clauses without verifying regional adequacy, risk assessment or fallback measures.
+Boilerplate clauses fail to address jurisdictional adequacy.  
 
 **Analysis:**  
-Regulatory decisions — notably the [EDPS/EIB refusal](https://www.moneycontrol.com/technology/eu-data-watchdog-blocks-eib-data-transfer-to-india-citing-privacy-concerns-article-13014369.html) — show that transfers into jurisdictions lacking “essentially equivalent” protections can be blocked, creating business continuity and compliance risk.
+The **[EDPS decision](https://www.moneycontrol.com/technology/eu-data-watchdog-blocks-eib-data-transfer-to-india-citing-privacy-concerns-article-13014369.html)** demonstrates that transfers to non-adequate countries risk suspension or nullification.  
 
 **Solution:**  
-Require a **Transfer Impact Assessment (TIA) Annex**:
-- Vendor must deliver a TIA within 15 days of contract start.  
-- Must implement supplementary controls within 45 days if risk persists.  
-- Customer must have contractual right to **suspend transfers** or require **local hosting** if residual risk remains.
+Mandate a **Transfer Impact Assessment (TIA)**:  
+- Submission within 15 days of contract execution.  
+- Remediation in 45 days.  
+- Client right to suspend transfer or demand local hosting.  
 
 ---
 
-## 8. Incident Response & Regulator Conflict
+## 8. Incident Response & Regulator Conflict  
 
 **Issue:**  
-Vendor incident-notification timelines often lag behind regulatory regimes (e.g., CERT-IN, NIS2) and contractual confidentiality obligations may clash with immediate government demands.
+Reporting timelines lag behind statutory requirements, and regulator notices may override confidentiality.  
 
 **Analysis:**  
-Incident response research (see [incident readiness study](file_0000000085ac71fa8a5cbe7206648eda)) documents significant delays and misalignment in vendor workflows versus statutory requirements.
+Studies on **[incident-response alignment](https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf)** reveal delays in SaaS vendor reporting.  
 
 **Solution:**  
-Include an **Incident Response Playbook**:
-- Critical incident → notify within **6 hours**.  
-- Non-critical incident → notify within **24 hours**.  
-- Root-cause analysis and remediation plan → within **30 days**.  
-- Forensic logs retained for a defined term; vendor must coordinate with customer on regulator disclosures.
+Define an **Incident Response Playbook**:  
+- Critical → notify within 6 h; non-critical → 24 h.  
+- Root-cause report within 30 days.  
+- Retain forensic logs for defined term.  
+- Coordinate with client on regulator filings.  
 
 ---
 
-## 9. Smart-Automation Disputes
+## 9. Smart-Automation Disputes  
 
 **Issue:**  
-Automated service controls (e.g., throttle limits, account lockouts, automated billing) may function contrary to the contract’s commercial intent, especially if the logic is opaque or not aligned to the agreement.
+Automated logic (e.g., billing or throttling) can diverge from contractual intent.  
 
 **Analysis:**  
-Smart-contract literature (see [smart automation study](file_00000000941871fabd8eff8b36a406d8)) advises that contracts should anticipate automated outcomes to align code execution with negotiated intent.
+A **[contextual coder standard](https://academic.oup.com/ojls/article/43/4/857/7464380)** ensures code aligns with agreed business logic.  
 
 **Solution:**  
-Include a **Code-Mapping Schedule**:
-- Document automation logic (pseudo-code or flow diagrams).  
-- Include input/output test vectors.  
-- Provide manual override rights for critical functions.  
-- Contractual clause stating that **human intent overrides automated execution** when ambiguity arises.
+Include a **Code-Mapping Schedule** detailing:  
+- Automation logic and inputs/outputs.  
+- Manual override rights.  
+- Human intent prevails in disputes.  
 
 ---
 
-## 10. Liability Cap Imbalance
+## 10. Liability Cap Imbalance  
 
 **Issue:**  
-Flat, fee-based liability caps in SaaS contracts often leave clients exposed to regulatory fines (data protection, export controls) or IP losses which exceed the cap.
+Flat liability caps rarely cover regulatory penalties or IP loss.  
 
 **Analysis:**  
-Commercial contracting analysis (see [cap imbalance report](file_000000005e5871fabdc59a067e1c818f)) finds that clients often accept caps which provide little real protection in today’s multi-jurisdictional environment.
+Empirical reviews on **[liability structuring in SaaS](https://www.blg.com/en/insights/2021/07/saas-agreements-a-practical-guide)** reveal under-protection in most contracts.  
 
 **Solution:**  
-Adopt **Tiered liability caps**:
-- Standard liability cap = 100% of annual fees.  
-- **No cap** for instances of wilful misconduct, data-protection regulatory fines, IP infringement or export-control breaches.  
-- Require vendor cyber-insurance with verified coverage and attach certificate as proof.
+Adopt **tiered caps**:  
+- Base = 100 % annual fees.  
+- No cap for wilful misconduct, data-protection fines, IP breaches.  
+- Vendor to maintain cyber-insurance.  
 
 ---
 
-## 11. Undefined Data Categories
+## 11. Subprocessor Change Management  
 
 **Issue:**  
-Contracts often fail to define categories of data (customer vs telemetry vs derived), leading to ownership disputes and uncontrolled vendor analytics use.
+Vendors switch subprocessors without notice or consent.  
 
 **Analysis:**  
-Data rights assessments (see [data-rights evaluation](file_00000000dc287208a4daf0d083f16c56)) show inconsistencies in how SaaS vendors allocate rights to analytics and derived value, creating risk for clients.
+Research on **[cloud partner migration risk](https://ieeexplore.ieee.org/document/8845733)** connects silent subprocessor changes to systemic compliance failures.  
 
 **Solution:**  
-Embed a **Data Classification Table** in the DPA specifying:
-- Ownership of each category.  
-- Permitted uses.  
-- Retention timelines.  
-- Deletion or transfer rights post-termination.
+Require a **live registry** and **30-day advance notice**; explicit consent for high-risk subprocessors.  
 
 ---
 
-## 12. Subprocessor Change Management
+## 12. Acceptance Testing Gaps  
 
 **Issue:**  
-Vendor changes to subprocessors (particularly overseas or offshore ones) often occur without meaningful notification to the client.
+SaaS deployments often lack structured acceptance testing.  
 
 **Analysis:**  
-Supply-chain reports (see [subprocessor change study](file_0000000085ac71fa8a5cbe7206648eda)) attribute a large share of compliance failures to hidden migrations of processing location or partner.
+Testing benchmarks from **[contract readiness studies](https://www.rutan.com/wp-content/uploads/2023/10/Rutan-SaaS-and-Contracts.pdf)** show fewer post-launch issues when testing frameworks are formalised.  
 
 **Solution:**  
-Require a **live subprocessor registry** and a **30-day prior-notice clause** for any substitution. For “high-risk” subprocessors (e.g., KMS, identity, offshore hosting) require **explicit prior client consent**.
+Add a **Testing & Acceptance Schedule** specifying criteria, remediation before payment, and fallback termination rights.  
 
 ---
 
-## 13. Absence of Acceptance Testing
+## 13. Hidden Ancillary Fees  
 
 **Issue:**  
-SaaS deployments frequently lack formal acceptance testing, resulting in customers absorbing defects, incomplete feature sets, or integration failures.
+Undefined pricing for APIs, storage, or support inflates costs.  
 
 **Analysis:**  
-Implementation audits (see [implementation data study](file_0000000060e471fa9885588b4252e548)) reveal that structured acceptance testing is strongly correlated with fewer post-launch issues.
+Market reviews on **[SaaS pricing behaviour](https://ora.ox.ac.uk/objects/uuid:aa8f6cb0-3e26-4ed7-a1a9-3b7b93c42e4b)** show 15–20 % escalation when rate cards are absent.  
 
 **Solution:**  
-Include a **Testing & Acceptance Schedule**:
-- Define **acceptance criteria** and thresholds for defects.  
-- Require vendor remediation before final acceptance and payment.  
-- Include fallback termination rights if acceptance fails.
+Include a **Rate-Card Schedule** defining inclusions, ceilings, and 60-day notice for price changes.  
 
 ---
 
-## 14. Hidden Ancillary Fees
+## 14. Unverified Escrow Rebuilds  
 
 **Issue:**  
-Many SaaS pricing models exclude API-call overages, storage spikes, migration support or exit costs — causing post-deployment cost surprises.
+Escrow deposits often fail when rebuilds are tested.  
 
 **Analysis:**  
-Pricing behaviour studies (see [hidden fee review](file_000000009f347208a28e5c8acd9cbc2c)) show cost escalation of 15–20% over two years when ancillary charges are not pre-contracted.
+Evidence on **[cloud service continuity](https://ieeexplore.ieee.org/document/8845733)** indicates over 50 % of rebuilds fail due to incomplete deposits.  
 
 **Solution:**  
-Add a **Rate-Card Schedule** defining included services, optional add-ons, rate ceilings and escalation caps. Require **60-day written notice** before any price change.
+Mandate **annual rebuild verification**; failures trigger remediation or termination rights.  
 
 ---
 
-## 15. Unverified Escrow Rebuilds
-
-**Issue:**  
-Escrow deposits are frequently not tested for real rebuild viability — customers may not actually regain access when needed.
-
-**Analysis:**  
-Continuity studies (see [rebuild verification research](file_00000000d4a871fa8ce5ed8765416bc5)) show about 50% fail to rebuild environments because dependencies or environment configurations are missing.
-
-**Solution:**  
-Mandate **annual independent rebuild verification** of escrowed materials. Failure to pass must trigger remediation obligations, audits or termination rights for the client.
-
----
-
-## Recommended Clause Snippets
+## Recommended Clause Snippets  
 
 ### 1. Chain-of-Equivalence  
-Vendors should maintain a **live Subprocessor Register** listing all parties processing Customer Data. Each subprocessor must be bound to obligations **no less protective** than those in the main Agreement; vendor remains fully liable for any subprocessor breach.
+Vendor maintains a live subprocessor registry and remains liable for equivalent compliance obligations.  
 
 ### 2. Tenant-Specific SLA  
-Guarantee availability is tracked **per tenant instance** via external probe. Maintenance windows are capped and subject to notice. Sustained outages must trigger **service credits and termination rights**.
+Measure uptime per tenant, cap maintenance, and enforce credit or termination rights.  
 
 ### 3. SaaS-Aware Escrow  
-The escrow deposit should include **source code, infrastructure scripts, container images, operational runbooks**. Annual independent verification required. Release triggers: vendor insolvency or 60-day uncured failure to restore critical services.
+Deposit source, infrastructure scripts, containers, and runbooks; verify annually; release on insolvency or prolonged failure.  
 
-### 4. Transfer Impact Assessment (TIA)  
-Vendor shall deliver a **TIA within 15 days** of contract start and implement **supplementary safeguards** within 45 days if risk persists. Client may **suspend transfers** or require **local hosting** if residual risk remains.
+### 4. Transfer Impact Assessment  
+Deliver TIA in 15 days, apply supplementary safeguards in 45 days; suspend transfers if risk persists.  
 
 ### 5. Incident Playbook  
-Critical incident → vendor notifies within **6 hours**; non-critical within **24 hours**. Root-cause analysis and remediation plan due within **30 days**. Vendor retains forensic logs for a defined period and must coordinate regulatory disclosures with client.
+Notify within 6–24 h, submit root-cause report in 30 days, retain logs, coordinate regulatory notifications.  
 
 ### 6. Smart-Automation Mapping  
-For automated functions (billing, throttling, lock-outs), vendor shall provide logic annotations, test-vectors and guarantee human override rights. Contract shall specify that **human intent governs over automated execution** in any dispute.
+Provide automation logic documentation, human override, and clarify intent hierarchy.  
 
 ### 7. Data Export & Deletion  
-Upon contract termination, vendor must export all Customer Data in open formats (JSON/CSV/SQL) within **30 days**, delete residual copies within **60 days**, and issue a formal **deletion certificate** in line with sanitisation standard (e.g., NIST 800-88).
+Export in open format within 30 days, delete in 60 days, issue certificate per [NIST 800-88](https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final).  
 
 ### 8. Audit Framework  
-Vendor shall provide **SOC 2 Type II or ISO 27001** attestation annually. Client may request **one technical audit per year** (30 days’ notice) scoped to the customer environment; redaction of vendor IP permitted under NDA. Vendor bears audit cost if material non-conformity is found.
+Provide annual SOC 2 / ISO 27001 certification; allow one scoped audit per year; vendor bears cost if non-compliance found.  
 
 ---
 
-## Summary for Partners
+## Summary for Partners  
 
-| Theme                     | Core Risk                          | Remediation Focus                                               |
-|---------------------------|------------------------------------|----------------------------------------------------------------|
-| Supply-chain transparency | Hidden subprocessors & data flows  | Flow-down liability, live register                              |
-| SLA reliability           | Platform-level metrics mask tenant issues | Tenant-instance metrics, termination trigger             |
-| Exit & portability        | Inaccessible data, lock-in          | Verified export & deletion certificates                        |
-| Source escrow             | Incomplete environment rebuilds     | Environment-inclusive escrow, verification                    |
-| Telemetry & data rights   | Derivative analytics misuse         | Defined taxonomy, opt-out / compensation pathways             |
-| Transfers & compliance    | Regulatory risk across jurisdictions| TIA + localization fallback                                     |
-| Automation governance     | Divergence between contract and code| Code-mapping schedule, override rights                         |
-| Liability & insurance     | Cap prevents meaningful remedy      | Tiered caps, uncapped carve-outs, insurance proof              |
-| Pricing transparency      | Hidden ancillary cost escalation    | Rate-card, escalation cap, prior notice                        |
-| Acceptance testing        | Defects post-go-live                | Formal testing schedule and fallback                           |
+| Theme | Core Risk | Remediation Focus |  
+|-------|------------|------------------|  
+| Supply-chain transparency | Hidden subprocessors & flows | Flow-down liability, live register |  
+| SLA reliability | Aggregated metrics | Tenant-instance reporting |  
+| Exit & portability | Data lock-in | Verified export & deletion |  
+| Escrow resilience | Failed rebuilds | Environment-inclusive escrow |  
+| Telemetry rights | Derived-data misuse | Taxonomy + opt-out |  
+| Transfer compliance | Jurisdictional risk | TIA + localisation fallback |  
+| Automation governance | Logic vs intent | Mapping + override |  
+| Liability structure | Inadequate caps | Tiered caps + insurance |  
+| Pricing transparency | Hidden costs | Rate-card + notice |  
+| Testing rigour | Deployment defects | Acceptance schedule |  
 
 ---
