@@ -4,7 +4,7 @@
 
 ## Overview
 
-This document identifies recurring **contractual, operational and regulatory pain-points** in SaaS agreements and provides **actionable drafting and negotiation solutions** for legal teams, commercial counsel and deal leads.  
+This note identifies recurring **contractual, operational and regulatory pain-points** in SaaS agreements and provides **actionable drafting and negotiation solutions**. 
 Each issue includes: the problem statement, an analysis rooted in legal/technical/regulatory research, and a recommended contractual fix.  
 Embedded hyperlinks navigate to supporting research sources, regulatory decisions and commentary for quick reference.
 
