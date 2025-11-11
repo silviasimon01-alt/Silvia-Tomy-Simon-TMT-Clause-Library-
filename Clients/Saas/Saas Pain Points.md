@@ -1,6 +1,6 @@
 # SaaS Contracting Advisory Note — Legal, Commercial & Technological Risks (India–EU–US)
 
-**Prepared by:** Silvia Tomy Simon
+
 **Audience:** Partners, Senior Associates & Transaction Counsel  
 **Scope:** Global SaaS contracting (B2B + B2C) — India, EU, and US  
 **Focus:** Risk allocation, regulatory compliance, operational resilience, and smart-contract integration  
