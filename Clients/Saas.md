@@ -1,12 +1,14 @@
 # SaaS (Software-as-a-Service) Clients — Full Clause Library with Direct Legal Linkages
 *(Vendor-Side – Global SaaS Providers)*
 
+**Quick links:**
+> - [SaaS Contract Pain Points, Takeaways & Recommendations](saas_contract_painpoints.md) ← click here for the consolidated pain-points (opens separate page)
 ---
 
 ## 1. Definitions & Service Scope
 
 **Clause:**  
-> “For the purpose of this Agreement, ‘Software-as-a-Service’ or ‘SaaS’ means a subscription-based service where the Vendor provides access to software hosted on Vendor-managed infrastructure. The scope includes *hosting, maintenance, support, and updates* of the SaaS Platform.”
+> “For the purpose of this Agreement, ‘Software-as-a-Service’ or ‘SaaS’ means a subscription-based service where the Vendor provides access to software hosted on Vendor-managed infrastructure. The scope includes *hosting, maintenance, support, and updates* of the SaaS Platform.”a
 
 ### Clause–to–Law Mapping:
 
