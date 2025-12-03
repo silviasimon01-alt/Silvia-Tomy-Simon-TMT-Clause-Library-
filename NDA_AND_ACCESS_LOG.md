@@ -10,7 +10,7 @@ This Confidentiality and Non-Disclosure Agreement (“Agreement”) is made betw
 
 **Discloser:**  
 Name: *Silvia Tomy Simon*  
-Email: *[insert]*  
+Email: *silviasimon01@gmail.com*
 GitHub: *silviasimon01-alt*
 
 **Recipient:**  
