@@ -1,4 +1,4 @@
-# 🚫 CONFIDENTIAL REPOSITORY — ACCESS RESTRICTED  
+# CONFIDENTIAL REPOSITORY : ACCESS RESTRICTED  
 ### *Unauthorized use, copying, or disclosure is strictly prohibited.*
 
 This private repository contains proprietary drafting materials, clause libraries, research notes, and legal analysis created by **Silvia Tomy Simon**.  
@@ -6,7 +6,7 @@ Access is granted **strictly for evaluation and review purposes** and is subject
 
 ---
 
-# 📌 LEGAL DISCLAIMER & CONFIDENTIALITY NOTICE
+# LEGAL DISCLAIMER & CONFIDENTIALITY NOTICE
 
 By accessing or viewing any part of this repository, you acknowledge and agree that:
 
@@ -21,7 +21,7 @@ If you do not agree to these terms, **do not access or view the repository**.
 
 ---
 
-# 🔐 INTELLECTUAL PROPERTY RIGHTS NOTICE
+# INTELLECTUAL PROPERTY RIGHTS NOTICE
 
 All files, documents, templates, and research in this repository are protected under:
 
@@ -46,7 +46,7 @@ Any unauthorized use constitutes **copyright infringement**, **breach of contrac
 
 ---
 
-# 📝 ACCESS LOG REQUIREMENT
+# ACCESS LOG REQUIREMENT
 
 Before access is granted, every recipient must:
 
@@ -64,7 +64,7 @@ No person may retain, download, or otherwise store copies of the repository.
 
 ---
 
-# 📘 PURPOSE OF THIS REPOSITORY
+# PURPOSE OF THIS REPOSITORY
 
 This repository is a structured collection of:
 
@@ -78,13 +78,13 @@ It is shared solely for **evaluation**, **interview**, or **professional review*
 
 ---
 
-# ⚖️ TERMS OF USE
+# TERMS OF USE
 
 Please refer to the full `TERMS_OF_USE.md` in this repository.
 
 ---
 
-# 📩 QUESTIONS / REQUESTS
+# QUESTIONS / REQUESTS
 
 For questions or revocation confirmations, contact:  
 **silviasimon01@gmail.com**
